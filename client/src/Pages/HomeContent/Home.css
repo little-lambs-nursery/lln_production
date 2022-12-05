@@ -1,0 +1,1671 @@
+.homeHeaderBg {
+    background-color: var(--white);
+    height: 600px;
+    position: relative;
+    overflow: hidden;
+}
+.homeHeaderOverlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #00000065;
+    top: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.homeHeaderTagLine{
+    text-align: center;
+}
+.homeHeaderTagLine h1{
+    font-family: extrabold;
+    font-size: 60px;
+    color: var(--white);
+    /* -webkit-text-stroke: 2px var(--secondary); */
+    text-shadow: 0 1px 5px #14141499;
+}
+.homeHeaderTagLine h2
+{
+    font-size: 40px;
+    font-family: extrabold;
+    color: white;
+}
+.homeHeaderTagLine h2 span{
+    font-family: extrabold;
+    text-shadow: 0 1px 5px #14141499;
+}
+.loving{
+    color: var(--primary);
+}
+.learning{
+    color: var(--secondary);
+}
+.nurturing{
+    color: var(--tertiary);
+}
+.headerFormContent{
+    position: absolute;
+    top: 2rem;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 999;
+}
+.headerFormContent .enrollFormModal{
+    background-color: #9cffa0;
+    padding: 2rem;
+    border-radius: 50px;
+}
+.homeHeaderSlider{
+    height: 100%;
+}
+
+.homeHeaderSlider .swiper {
+    width: 100%;
+    height: 600px;
+}
+
+.homeHeaderSlider .swiper-slide-active{
+    animation: scale 3s infinite ease-in-out;
+}
+
+
+  .homeHeaderSlider.swiper-slide img {
+    display: block;
+    max-width: 100%;
+  }
+
+
+
+.headerSliderImg {
+    border: 10px solid var(--white);
+    border-radius: 12px;
+    box-shadow: 0px 0px 15.443px rgba(0, 0, 0, 0.31);
+    margin: 1rem;
+    background-color: var(--white);
+}
+
+
+.homeHeaderSlider .swiper-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: 2rem;
+}
+
+.homeHeaderSlider .swiper-pagination-bullet {
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    opacity: 1;
+}
+.homeHeaderSlider .swiper-pagination-bullet.swiper-pagination-bullet-active{
+    background-color: var(--primary);
+}
+.homeHeaderSlider .swiper-button-prev{
+    background-color: #141414a3;
+    width: 50px;
+    height: 50px;
+    display: none;
+}
+.homeHeaderSlider .swiper-button-prev::after{
+    color: var(--white);
+    font-size: 24px;
+}
+.homeHeaderSlider .swiper-button-next{
+    background-color: #141414a3;
+    width: 50px;
+    height: 50px;
+    display: none;
+}
+.homeHeaderSlider .swiper-button-next::after{
+    color: var(--white);
+    font-size: 24px;
+}
+
+.homeHeaderSlider .swiper-slide-prev img,
+.homeHeaderSlider .swiper-slide-active img,
+.homeHeaderSlider .swiper-slide-duplicate-active img {
+  animation-name: zoom;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+}
+@keyframes zoom {
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(1.2);
+    }
+  }
+
+
+/* ===============why LL==================== */
+
+.title h2 {
+    text-align: center;
+    font-size: 50px;
+    font-family: title;
+    text-transform: uppercase;
+    margin-top: 2rem;
+}
+
+.title.whyLL h2 {
+    color: var(--primary);
+    margin-top: 4rem;
+}
+.title.whyLL p{
+    color: #6a6a6a;
+    font-size: 23px;
+    letter-spacing: .09em;
+    text-align: justify;
+    margin-top: 1rem;
+}
+
+.whyLLCard {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 47px rgba(0, 0, 0, 0.07);
+    border-radius: 20px;
+    height: 400px;
+    width: 85%;
+    margin: 5rem auto auto auto;
+    padding: 2rem 1.5rem;
+}
+
+.whyLLCardIcon {
+    width: 72px;
+    height: 72px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    border-radius: 50%;
+    background-color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.whyLLCardIcon.one {
+    background-color: var(--primary);
+}
+
+.whyLLCardIcon.two {
+    background-color: var(--tertiary);
+}
+
+.whyLLCardIcon.three {
+    background-color: var(--secondary);
+}
+
+.whyLLCardContent h4 {
+    font-size: 26px;
+    font-family: semibold;
+    margin: 2rem 0 2rem 0;
+}
+
+.whyLLCardContent p {
+    text-align: justify;
+}
+
+
+
+.whyLLBg {
+    position: relative;
+}
+
+.whyLLBg::before {
+    position: absolute;
+    content: '';
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    top: -10rem;
+    right: -17rem;
+    background-color: #9CFFA0;
+    z-index: -1;
+}
+
+.whyLLBg::after {
+    position: absolute;
+    content: '';
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-color: #FFA4CA;
+    top: 5rem;
+    left: -17rem;
+    z-index: -1;
+}
+
+/* ================end================ */
+
+/* =========LLN Category============== */
+
+.LLNCategoryBg {
+    margin-top: 25rem;
+    height: 500px;
+    background-color: #82D2FF;
+    position: relative;
+}
+
+.LLNCategoryBg::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 240px;
+    background-image: url(../../img/home/blue_cloud.webp);
+    top: -15rem;
+}
+
+.LLNCategoryBg::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 137px;
+    background-image: url(../../img/home/wave.webp);
+    bottom: 0;
+    background-repeat: no-repeat;
+}
+
+.LLNCategoryName {
+    margin-top: 2rem !important;
+}
+
+.LLNCategoryName ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+.LLNCategoryCircle {
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.LLNCategoryCardBg {
+    background-color: var(--secondary);
+    position: relative;
+    padding: 0 0 5rem 0;
+}
+
+.LLNCategoryCardBg::after {
+    position: absolute;
+    content: '';
+    width: 493px;
+    height: 493px;
+    background-color: #9CFFA0;
+    right: -17rem;
+    top: 16rem;
+    border-radius: 50%;
+    z-index: 0;
+}
+
+.LLNCategoryCardBg::before {
+    position: absolute;
+    content: '';
+    width: 493px;
+    height: 493px;
+    background-color: #FFA4CA;
+    left: -17rem;
+    bottom: 1rem;
+    border-radius: 50%;
+    z-index: 0;
+}
+
+.LLNCategoryCardContent {
+    background-color: var(--white);
+    width: 100%;
+    border: 5px solid #FFD600;
+    border-radius: 30px;
+    padding: 1.2rem;
+    height: max-content;
+}
+
+.LLNCategoryCard {
+    margin: 6rem auto auto auto;
+    border: 6px solid #fdd602;
+    border-style: dashed;
+    border-radius: 30px;
+    padding: 1rem;
+    width: 85%;
+    position: relative;
+    z-index: 1;
+}
+
+.LLNCategoryCardContent h4 {
+    font-size: 30px;
+    color: var(--primary);
+    text-align: center;
+    font-family: semibold;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+.LLNCategoryCardContent button {
+    width: 100%;
+    height: 60px;
+    color: var(--white);
+    background-color: var(--secondary);
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    margin: 2rem 0 0 0;
+    font-size: 26px;
+}
+
+
+/* ===============end============= */
+
+/* ==========location=============== */
+.homeLocationBg {
+    background-color: var(--primary);
+    height: 700px;
+    position: relative;
+    overflow: hidden;
+}
+
+.homeLocationBg::after {
+    position: absolute;
+    content: '';
+    width: 500px;
+    height: 500px;
+    background: #FFA4CA;
+    border-radius: 50%;
+    bottom: -13rem;
+    right: -14rem;
+    opacity: 0.6;
+}
+
+.homeLocationBg::before {
+    position: absolute;
+    content: '';
+    width: 500px;
+    height: 500px;
+    background: #9CFFA0;
+    border-radius: 50%;
+    bottom: -9rem;
+    left: -11rem;
+    opacity: 0.6;
+}
+
+.homeLocationBox {
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.homeLocationContent {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.homeLocationContent p {
+    font-size: 40px;
+    color: var(--white);
+    line-height: 1;
+}
+
+.homeLocationContent button {
+    padding: 10px 50px;
+    border-radius: 50px;
+    border: 5px solid var(--white);
+    background-color: transparent;
+    font-family: boldfont;
+    color: var(--white);
+    font-size: 20px;
+    margin-top: 2rem;
+}
+
+.homeLocationContent button img {
+    max-width: 15px;
+    margin-left: 1rem;
+}
+
+.homeLocationContentMap {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.homeLocationContentMap iframe {
+    width: 500px;
+    height: 400px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+/* ========end============= */
+
+/* ========floating button========== */
+
+.floatingBtn{
+    position: fixed;
+    bottom: 1rem;
+    right: 0;
+    z-index: 99999;
+}
+.floatingBtn ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.floatingBtn ul li{
+    width: 220px;
+    height: 55px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: var(--dark);
+    border-radius: 25px 0px 0px 25px;
+    padding: 0 0 0 1rem;
+}
+.floatingBtn ul li a{
+    color: var(--white);
+}
+.floatingBtn ul li:first-child{
+    margin-bottom: 10px;
+    background-color: #BB001B;
+}
+.floatingBtn ul li:last-child{
+    background-color: #29a71a;
+}
+.floatingBtn ul li img{
+    max-width: 35px;
+    margin-right: 10px;
+}
+
+/* =============end================ */
+
+
+@media (min-width: 319.98px) and (max-width: 379.98px) {
+    .homeHeaderBg{
+        overflow: hidden;
+        height: auto;
+        margin: 3.3rem 0 0 0;
+    }
+    .homeHeaderTagLine h1{
+        font-size: 26px;
+    }
+    .homeHeaderTagLine h2{
+        font-size: 22px;
+    }
+    .homeHeaderSlider .swiper{
+        height: auto;
+    }
+    .title.whyLL p{
+        font-size: 16px;
+    }
+    
+    .homeHeaderSlider .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal{
+        bottom: 1rem;
+    }
+    .homeHeaderSlider .swiper-button-prev::after{
+        font-size: 16px;
+    }
+    .homeHeaderSlider .swiper-button-prev{
+        width: 30px;
+        height: 30px;
+    }
+    .homeHeaderSlider .swiper-button-next::after{
+        font-size: 16px;
+    }
+    .homeHeaderSlider .swiper-button-next{
+        width: 30px;
+        height: 30px;
+    }
+    .homeHeaderEnrollBtn p{
+        margin: 1.5rem 1.5rem;
+    }
+    .whyLLBg{
+        overflow: hidden;
+        padding: 0 0 3rem 0;
+    }
+    .whyLLBg::before{
+        width: 150px;
+        height: 150px;
+        top: 0;
+        right: -6rem;
+        z-index: -1;
+    }
+    .whyLLBg::after{
+        width: 150px;
+        height: 150px;
+        left: -6rem;
+        z-index: -1;
+    }
+    .title h2{
+        font-size: 26px;
+    }
+    .whyLLCard{
+        width: 100%;
+        height: max-content;
+        margin: 2rem auto auto auto;
+    }
+    .whyLLCardContent h4{
+        font-size: 20px;
+        margin: 1rem 0 1rem 0;
+    }
+    .whyLLCardContent h4 br{
+        display: none;
+    }
+    .LLNCategoryBg{
+        margin-top: 9rem;
+    }
+    .LLNCategoryBg::before{
+        top: -14rem;
+    }
+    .LLNCategoryName ul{
+        overflow: scroll;
+    }
+    .LLNCategoryBg::after{
+        bottom: -2px;
+    }
+    .LLNCategoryCardBg::after{
+        width: 150px;
+        height: 150px;
+        top: -6rem;
+        left: -4rem;
+    }
+    
+    .LLNCategoryCardContent h4{
+        height: 80px;
+        font-size: 24px;
+    }
+    .LLNCategoryCardContent button{
+        margin: 3rem 0 0 0;
+        font-size: 20px;
+    }
+    .LLNCategoryCardBg::before{
+        display: none;
+    }
+    .LLNCategoryCard{
+        margin-top: 3rem;
+        width: 100%;
+    }
+    .homeLocationBox{
+        width: 100%;
+    }
+    .homeLocationContent{
+        padding: 0 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .homeLocationContent p{
+        font-size: 20px;
+    }
+    .homeLocationContent button{
+        margin-bottom: 2rem;
+        
+    }
+    .homeLocationContentMap{
+        padding: 1rem;
+    }
+    .homeLocationContentMap iframe{
+        width: 100%;
+    }
+    .homeLocationBg::after{
+        display: none;
+    }
+    .LLNCategoryCircle{
+        width: 200px;
+    }
+    .floatingBtn ul li img{
+        max-width: 25px;
+    }
+    .floatingBtn ul li{
+        font-size: 12px;
+        width: 160px;
+        height: 45px;
+    }
+
+   
+}
+
+@media (min-width: 380px) and (max-width: 424.98px) {
+    .homeHeaderBg{
+        overflow: hidden;
+        height: auto;
+        margin: 3.3rem 0 0 0;
+    }
+    .homeHeaderTagLine h1{
+        font-size: 26px;
+    }
+    .homeHeaderTagLine h2{
+        font-size: 22px;
+    }
+    .homeHeaderSlider .swiper{
+        height: auto;
+    }
+    .title.whyLL p{
+        font-size: 16px;
+    }
+    .homeHeaderSlider .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal{
+        bottom: 1rem;
+    }
+    .homeHeaderSlider .swiper-button-prev::after{
+        font-size: 16px;
+    }
+    .homeHeaderSlider .swiper-button-prev{
+        width: 30px;
+        height: 30px;
+    }
+    .homeHeaderSlider .swiper-button-next::after{
+        font-size: 16px;
+    }
+    .homeHeaderSlider .swiper-button-next{
+        width: 30px;
+        height: 30px;
+    }
+    .homeHeaderEnrollBtn p{
+        margin: 1.5rem 1.5rem;
+    }
+    .whyLLBg{
+        overflow: hidden;
+        padding: 0 0 3rem 0;
+    }
+    .whyLLBg::before{
+        width: 150px;
+        height: 150px;
+        top: 0;
+        right: -6rem;
+        z-index: -1;
+    }
+    .whyLLBg::after{
+        width: 150px;
+        height: 150px;
+        left: -6rem;
+        z-index: -1;
+    }
+    .title h2{
+        font-size: 26px;
+    }
+    .whyLLCard{
+        width: 100%;
+        height: max-content;
+        margin: 2rem auto auto auto;
+    }
+    .whyLLCardContent h4{
+        font-size: 20px;
+        margin: 1rem 0 1rem 0;
+    }
+    .whyLLCardContent h4 br{
+        display: none;
+    }
+    .LLNCategoryBg{
+        margin-top: 9rem;
+    }
+    .LLNCategoryBg::before{
+        top: -14rem;
+    }
+    .LLNCategoryName ul{
+        overflow: scroll;
+    }
+    .LLNCategoryBg::after{
+        bottom: -2px;
+    }
+    .LLNCategoryCardBg::after{
+        width: 150px;
+        height: 150px;
+        top: -6rem;
+        left: -4rem;
+    }
+   
+    .LLNCategoryCardContent h4{
+        height: 80px;
+        font-size: 24px;
+    }
+    .LLNCategoryCardContent button{
+        margin: 3rem 0 0 0;
+        font-size: 20px;
+    }
+    .LLNCategoryCardBg::before{
+        display: none;
+    }
+    .LLNCategoryCard{
+        margin-top: 3rem;
+        width: 100%;
+    }
+    .homeLocationBox{
+        width: 100%;
+    }
+    .homeLocationContent{
+        padding: 0 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .homeLocationContent p{
+        font-size: 20px;
+    }
+    .homeLocationContent button{
+        margin-bottom: 2rem;
+        
+    }
+    .homeLocationContentMap{
+        padding: 1rem;
+    }
+    .homeLocationContentMap iframe{
+        width: 100%;
+    }
+    .homeLocationBg::after{
+        display: none;
+    }
+    .LLNCategoryCircle{
+        width: 200px;
+    }
+    .floatingBtn ul li img{
+        max-width: 25px;
+    }
+    .floatingBtn ul li{
+        font-size: 12px;
+        width: 160px;
+        height: 45px;
+    }
+
+ 
+}
+
+@media (min-width: 425px) and (max-width: 575.98px) {
+    .homeHeaderBg{
+        overflow: hidden;
+        height: auto;
+        margin: 3.3rem 0 0 0;
+    }
+    .homeHeaderTagLine h1{
+        font-size: 26px;
+    }
+    .homeHeaderTagLine h2{
+        font-size: 22px;
+    }
+    .homeHeaderSlider .swiper{
+        height: auto;
+    }
+    .title.whyLL p{
+        font-size: 16px;
+    }
+    .homeHeaderSlider .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal{
+        bottom: 1rem;
+    }
+    .homeHeaderSlider .swiper-button-prev::after{
+        font-size: 16px;
+    }
+    .homeHeaderSlider .swiper-button-prev{
+        width: 30px;
+        height: 30px;
+    }
+    .homeHeaderSlider .swiper-button-next::after{
+        font-size: 16px;
+    }
+    .homeHeaderSlider .swiper-button-next{
+        width: 30px;
+        height: 30px;
+    }
+    .homeHeaderEnrollBtn p{
+        margin: 1.5rem 1.5rem;
+    }
+    .whyLLBg{
+        overflow: hidden;
+        padding: 0 0 3rem 0;
+    }
+    .whyLLBg::before{
+        width: 150px;
+        height: 150px;
+        top: 0;
+        right: -6rem;
+        z-index: -1;
+    }
+    .whyLLBg::after{
+        width: 150px;
+        height: 150px;
+        left: -6rem;
+        z-index: -1;
+    }
+    .title h2{
+        font-size: 26px;
+    }
+    .whyLLCard{
+        width: 100%;
+        height: max-content;
+        margin: 2rem auto auto auto;
+    }
+    .whyLLCardContent h4{
+        font-size: 20px;
+        margin: 1rem 0 1rem 0;
+    }
+    .whyLLCardContent h4 br{
+        display: none;
+    }
+    .LLNCategoryBg{
+        margin-top: 9rem;
+    }
+    .LLNCategoryBg::before{
+        top: -14rem;
+    }
+    .LLNCategoryName ul{
+        overflow: scroll;
+    }
+    .LLNCategoryBg::after{
+        bottom: -2px;
+    }
+    .LLNCategoryCardBg::after{
+        width: 150px;
+        height: 150px;
+        top: -6rem;
+        left: -4rem;
+    }
+   
+    .LLNCategoryCardContent h4{
+        height: 80px;
+        font-size: 24px;
+    }
+    .LLNCategoryCardContent button{
+        margin: 3rem 0 0 0;
+        font-size: 20px;
+    }
+    .LLNCategoryCardBg::before{
+        display: none;
+    }
+    .LLNCategoryCard{
+        margin-top: 3rem;
+        width: 100%;
+    }
+    .homeLocationBox{
+        width: 100%;
+    }
+    .homeLocationContent{
+        padding: 0 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .homeLocationContent p{
+        font-size: 20px;
+    }
+    .homeLocationContent button{
+        margin-bottom: 2rem;
+        
+    }
+    .homeLocationContentMap{
+        padding: 1rem;
+    }
+    .homeLocationContentMap iframe{
+        width: 100%;
+    }
+    .homeLocationBg::after{
+        display: none;
+    }
+    .LLNCategoryCircle{
+        width: 200px;
+    }
+    .floatingBtn ul li img{
+        max-width: 25px;
+    }
+    .floatingBtn ul li{
+        font-size: 12px;
+        width: 160px;
+        height: 45px;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 768.98px) {
+    .homeHeaderBg{
+        overflow: hidden;
+        height: auto;
+        margin: 3.3rem 0 0 0;
+    }
+    .homeHeaderTagLine h1{
+        font-size: 26px;
+    }
+    .homeHeaderTagLine h2{
+        font-size: 22px;
+    }
+    .homeHeaderSlider .swiper{
+        height: auto;
+    }
+    .title.whyLL p{
+        font-size: 16px;
+    }
+    .homeHeaderSlider .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal{
+        bottom: 1rem;
+    }
+    .homeHeaderSlider .swiper-button-prev::after{
+        font-size: 16px;
+    }
+    .homeHeaderSlider .swiper-button-prev{
+        width: 30px;
+        height: 30px;
+    }
+    .homeHeaderSlider .swiper-button-next::after{
+        font-size: 16px;
+    }
+    .homeHeaderSlider .swiper-button-next{
+        width: 30px;
+        height: 30px;
+    }
+    .homeHeaderEnrollBtn p{
+        margin: 1.5rem 1.5rem;
+    }
+    .whyLLBg{
+        overflow: hidden;
+        padding: 0 0 3rem 0;
+    }
+    .whyLLBg::before{
+        width: 150px;
+        height: 150px;
+        top: 0;
+        right: -6rem;
+        z-index: -1;
+    }
+    .whyLLBg::after{
+        width: 150px;
+        height: 150px;
+        left: -6rem;
+        z-index: -1;
+    }
+    .title h2{
+        font-size: 26px;
+    }
+    .whyLLCard{
+        width: 100%;
+        height: max-content;
+        margin: 2rem auto auto auto;
+    }
+    .whyLLCardContent h4{
+        font-size: 20px;
+        margin: 1rem 0 1rem 0;
+    }
+    .whyLLCardContent h4 br{
+        display: none;
+    }
+    .LLNCategoryBg{
+        margin-top: 9rem;
+    }
+    .LLNCategoryBg::before{
+        top: -14rem;
+    }
+    .LLNCategoryName ul{
+        overflow: scroll;
+    }
+    .LLNCategoryBg::after{
+        bottom: -2px;
+    }
+    .LLNCategoryCardBg::after{
+        width: 150px;
+        height: 150px;
+        top: -6rem;
+        left: -4rem;
+    }
+ 
+    .LLNCategoryCardContent h4{
+        height: 80px;
+        font-size: 24px;
+    }
+    .LLNCategoryCardContent button{
+        margin: 3rem 0 0 0;
+        font-size: 20px;
+    }
+    .LLNCategoryCardBg::before{
+        display: none;
+    }
+    .LLNCategoryCard{
+        margin-top: 3rem;
+        width: 100%;
+    }
+    .homeLocationBox{
+        width: 100%;
+    }
+    .homeLocationContent{
+        padding: 0 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .homeLocationContent p{
+        font-size: 20px;
+    }
+    .homeLocationContent button{
+        margin-bottom: 2rem;
+        
+    }
+    .homeLocationContentMap{
+        padding: 1rem;
+    }
+    .homeLocationContentMap iframe{
+        width: 100%;
+    }
+    .homeLocationBg::after{
+        display: none;
+    }
+    .LLNCategoryCircle{
+        width: 200px;
+    }
+    .floatingBtn ul li img{
+        max-width: 25px;
+    }
+    .floatingBtn ul li{
+        font-size: 12px;
+        width: 160px;
+        height: 45px;
+    }
+
+   
+}
+
+@media (min-width: 769px) and (max-width: 991.98px) {
+    .homeHeaderBg{
+        overflow: hidden;
+        height: auto;
+        margin: 3.3rem 0 0 0;
+    }
+    .homeHeaderTagLine h1{
+        font-size: 26px;
+    }
+    .homeHeaderTagLine h2{
+        font-size: 22px;
+    }
+    .homeHeaderSlider .swiper{
+        height: auto;
+    }
+    .title.whyLL p{
+        font-size: 16px;
+    }
+    .homeHeaderSlider .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal{
+        bottom: 1rem;
+    }
+    .homeHeaderSlider .swiper-button-prev::after{
+        font-size: 16px;
+    }
+    .homeHeaderSlider .swiper-button-prev{
+        width: 30px;
+        height: 30px;
+    }
+    .homeHeaderSlider .swiper-button-next::after{
+        font-size: 16px;
+    }
+    .homeHeaderSlider .swiper-button-next{
+        width: 30px;
+        height: 30px;
+    }
+    .whyLLBg{
+        overflow: hidden;
+        padding: 0 0 3rem 0;
+    }
+    .whyLLBg::before{
+        width: 150px;
+        height: 150px;
+        top: 0;
+        right: -6rem;
+        z-index: -1;
+    }
+    .whyLLBg::after{
+        width: 150px;
+        height: 150px;
+        left: -6rem;
+        z-index: -1;
+    }
+    .title h2{
+        font-size: 26px;
+    }
+    .whyLLCard{
+        width: 100%;
+        height: 350px;
+        margin: 2rem auto auto auto;
+    }
+    .whyLLCardContent h4{
+        font-size: 20px;
+        margin: 1rem 0 1rem 0;
+    }
+    .whyLLCardContent h4 br{
+        display: none;
+    }
+    .LLNCategoryBg{
+        margin-top: 9rem;
+    }
+    .LLNCategoryBg::before{
+        top: -14rem;
+    }
+    .LLNCategoryName ul{
+        overflow: scroll;
+    }
+    .LLNCategoryBg::after{
+        bottom: -2px;
+    }
+    .LLNCategoryCardBg::after{
+        width: 150px;
+        height: 150px;
+        top: -6rem;
+        left: -4rem;
+    }
+ 
+    .LLNCategoryCardContent h4{
+        height: 80px;
+        font-size: 24px;
+    }
+    .LLNCategoryCardContent button{
+        margin: 3rem 0 0 0;
+        font-size: 20px;
+    }
+    .LLNCategoryCardBg::before{
+        display: none;
+    }
+    .LLNCategoryCard{
+        margin-top: 3rem;
+        width: 100%;
+    }
+    .homeLocationBox{
+        width: 100%;
+    }
+    .homeLocationContent{
+        padding: 0 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .homeLocationContent p{
+        font-size: 20px;
+    }
+    .homeLocationContent button{
+        margin-bottom: 2rem;
+        
+    }
+    .homeLocationContentMap{
+        padding: 1rem;
+    }
+    .homeLocationContentMap iframe{
+        width: 100%;
+    }
+    .homeLocationBg::after{
+        display: none;
+    }
+    .LLNCategoryCircle{
+        width: 200px;
+    }
+    .floatingBtn ul li img{
+        max-width: 25px;
+    }
+    .floatingBtn ul li{
+        font-size: 12px;
+        width: 160px;
+        height: 45px;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1023.98px) {
+    .homeHeaderBg{
+        overflow: hidden;
+        height: auto;
+    }
+    .homeHeaderSlider .swiper{
+        height: auto;
+    }
+    .title.whyLL p{
+        font-size: 16px;
+    }
+    .homeHeaderSlider .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal{
+        bottom: 1rem;
+    }
+    .homeHeaderSlider .swiper-button-prev::after{
+        font-size: 16px;
+    }
+    .homeHeaderSlider .swiper-button-prev{
+        width: 30px;
+        height: 30px;
+    }
+    .homeHeaderSlider .swiper-button-next::after{
+        font-size: 16px;
+    }
+    .homeHeaderSlider .swiper-button-next{
+        width: 30px;
+        height: 30px;
+    }
+    .whyLLBg{
+        overflow: hidden;
+        padding: 0 0 3rem 0;
+    }
+    .whyLLBg::before{
+        width: 150px;
+        height: 150px;
+        top: 0;
+        right: -6rem;
+        z-index: -1;
+    }
+    .whyLLBg::after{
+        width: 150px;
+        height: 150px;
+        left: -6rem;
+        z-index: -1;
+    }
+    .title h2{
+        font-size: 26px;
+    }
+    .whyLLCard{
+        width: 100%;
+        height: 350px;
+        margin: 2rem auto auto auto;
+    }
+    .whyLLCardContent h4{
+        font-size: 20px;
+        margin: 1rem 0 1rem 0;
+    }
+    .whyLLCardContent h4 br{
+        display: none;
+    }
+    .LLNCategoryBg{
+        margin-top: 9rem;
+    }
+    .LLNCategoryBg::before{
+        top: -14rem;
+    }
+    .LLNCategoryName ul{
+        overflow: scroll;
+    }
+    .LLNCategoryBg::after{
+        bottom: -2px;
+    }
+    .LLNCategoryCardBg::after{
+        width: 150px;
+        height: 150px;
+        top: -6rem;
+        left: -4rem;
+    }
+ 
+    .LLNCategoryCardContent h4{
+        height: 80px;
+        font-size: 24px;
+    }
+    .LLNCategoryCardContent button{
+        margin: 3rem 0 0 0;
+        font-size: 20px;
+    }
+    .LLNCategoryCardBg::before{
+        display: none;
+    }
+    .LLNCategoryCard{
+        margin-top: 3rem;
+        width: 100%;
+    }
+    .homeLocationBox{
+        width: 100%;
+    }
+    .homeLocationContent{
+        padding: 0 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .homeLocationContent p{
+        font-size: 20px;
+    }
+    .homeLocationContent button{
+        margin-bottom: 2rem;
+        
+    }
+    .homeLocationContentMap{
+        padding: 1rem;
+    }
+    .homeLocationContentMap iframe{
+        width: 100%;
+    }
+    .homeLocationBg::after{
+        display: none;
+    }
+    .LLNCategoryCircle{
+        width: 200px;
+    }
+    .floatingBtn ul li img{
+        max-width: 25px;
+    }
+    .floatingBtn ul li{
+        font-size: 12px;
+        width: 160px;
+        height: 45px;
+    }
+
+}
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+    .homeHeaderBg{
+        overflow: hidden;
+        height: auto;
+    }
+    .homeHeaderSlider .swiper{
+        height: auto;
+    }
+    .title.whyLL p{
+        font-size: 16px;
+    }
+    .homeHeaderSlider .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal{
+        bottom: 1rem;
+    }
+    .homeHeaderSlider .swiper-button-prev::after{
+        font-size: 16px;
+    }
+    .homeHeaderSlider .swiper-button-prev{
+        width: 30px;
+        height: 30px;
+    }
+    .homeHeaderSlider .swiper-button-next::after{
+        font-size: 16px;
+    }
+    .homeHeaderSlider .swiper-button-next{
+        width: 30px;
+        height: 30px;
+    }
+    .whyLLBg{
+        overflow: hidden;
+        padding: 0 0 3rem 0;
+    }
+    .whyLLBg::before{
+        width: 150px;
+        height: 150px;
+        top: 0;
+        right: -6rem;
+        z-index: -1;
+    }
+    .whyLLBg::after{
+        width: 150px;
+        height: 150px;
+        left: -6rem;
+        z-index: -1;
+    }
+    .title h2{
+        font-size: 26px;
+    }
+    .whyLLCard{
+        width: 100%;
+        height: 350px;
+        margin: 2rem auto auto auto;
+    }
+    .whyLLCardContent h4{
+        font-size: 20px;
+        margin: 1rem 0 1rem 0;
+    }
+    .whyLLCardContent h4 br{
+        display: none;
+    }
+    .LLNCategoryBg{
+        margin-top: 9rem;
+    }
+    .LLNCategoryBg::before{
+        top: -14rem;
+    }
+    .LLNCategoryName ul{
+        overflow: scroll;
+    }
+    .LLNCategoryBg::after{
+        bottom: -2px;
+    }
+    .LLNCategoryCardBg::after{
+        width: 150px;
+        height: 150px;
+        top: -6rem;
+        left: -4rem;
+    }
+ 
+    .LLNCategoryCardContent h4{
+        height: 80px;
+        font-size: 24px;
+    }
+    .LLNCategoryCardContent button{
+        margin: 3rem 0 0 0;
+        font-size: 20px;
+    }
+    .LLNCategoryCardBg::before{
+        display: none;
+    }
+    .LLNCategoryCard{
+        margin-top: 3rem;
+        width: 100%;
+    }
+    .homeLocationBox{
+        width: 100%;
+    }
+    .homeLocationContent{
+        padding: 0 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .homeLocationContent p{
+        font-size: 20px;
+    }
+    .homeLocationContent button{
+        margin-bottom: 2rem;
+        
+    }
+    .homeLocationContentMap{
+        padding: 1rem;
+    }
+    .homeLocationContentMap iframe{
+        width: 100%;
+    }
+    .homeLocationBg::after{
+        display: none;
+    }
+    .LLNCategoryCircle{
+        width: 200px;
+    }
+}
+
+@media (min-width: 1200.98px) and (max-width: 1359px) {
+    .homeHeaderBg{
+        overflow: hidden;
+    }
+    .whyLLBg{
+        overflow: hidden;
+        padding: 0 0 3rem 0;
+    }
+    .whyLLBg::before{
+        width: 150px;
+        height: 150px;
+        top: 0;
+        right: -6rem;
+        z-index: -1;
+    }
+    .whyLLBg::after{
+        width: 150px;
+        height: 150px;
+        left: -6rem;
+        z-index: -1;
+    }
+    .title h2{
+        font-size: 26px;
+    }
+    .whyLLCard{
+        width: 100%;
+        height: 350px;
+        margin: 2rem auto auto auto;
+    }
+    .whyLLCardContent h4{
+        font-size: 20px;
+        margin: 1rem 0 1rem 0;
+    }
+    .whyLLCardContent h4 br{
+        display: none;
+    }
+    .LLNCategoryBg{
+        margin-top: 9rem;
+    }
+    .LLNCategoryBg::before{
+        top: -14rem;
+    }
+   
+    .LLNCategoryBg::after{
+        bottom: -2px;
+    }
+    .LLNCategoryCardBg::after{
+        width: 150px;
+        height: 150px;
+        top: -6rem;
+        left: -4rem;
+    }
+ 
+    .LLNCategoryCardContent h4{
+        height: 80px;
+        font-size: 24px;
+    }
+    .LLNCategoryCardContent button{
+        margin: 3rem 0 0 0;
+        font-size: 20px;
+    }
+    .LLNCategoryCardBg::before{
+        display: none;
+    }
+    .LLNCategoryCard{
+        margin-top: 3rem;
+        width: 100%;
+    }
+    .homeLocationBox{
+        width: 100%;
+    }
+    .homeLocationContent{
+        padding: 0 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .homeLocationContent p{
+        font-size: 20px;
+    }
+    .homeLocationContent button{
+        margin-bottom: 2rem;
+        
+    }
+    .homeLocationContentMap{
+        padding: 1rem;
+    }
+    .homeLocationContentMap iframe{
+        width: 100%;
+    }
+    .homeLocationBg::after{
+        display: none;
+    }
+}
+
+@media (min-width: 1359.98px) and (max-width: 1440px) {
+    .homeHeaderBg{
+        overflow: hidden;
+    }
+    .whyLLBg{
+        overflow: hidden;
+        padding: 0 0 3rem 0;
+    }
+    .whyLLBg::before{
+        width: 150px;
+        height: 150px;
+        top: 0;
+        right: -6rem;
+        z-index: -1;
+    }
+    .whyLLBg::after{
+        width: 150px;
+        height: 150px;
+        left: -6rem;
+        z-index: -1;
+    }
+    .title h2{
+        font-size: 26px;
+    }
+    .whyLLCard{
+        width: 100%;
+        height: 350px;
+        margin: 2rem auto auto auto;
+    }
+    .whyLLCardContent h4{
+        font-size: 20px;
+        margin: 1rem 0 1rem 0;
+    }
+    .whyLLCardContent h4 br{
+        display: none;
+    }
+    .LLNCategoryBg{
+        margin-top: 9rem;
+    }
+    .LLNCategoryBg::before{
+        top: -14rem;
+    }
+  
+    .LLNCategoryBg::after{
+        bottom: -2px;
+    }
+    .LLNCategoryCardBg::after{
+        width: 150px;
+        height: 150px;
+        top: -6rem;
+        left: -4rem;
+    }
+ 
+    .LLNCategoryCardContent h4{
+        height: 80px;
+        font-size: 24px;
+    }
+    .LLNCategoryCardContent button{
+        margin: 3rem 0 0 0;
+        font-size: 20px;
+    }
+    .LLNCategoryCardBg::before{
+        display: none;
+    }
+    .LLNCategoryCard{
+        margin-top: 3rem;
+        width: 100%;
+    }
+    .homeLocationBox{
+        width: 100%;
+    }
+    .homeLocationContent{
+        padding: 0 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .homeLocationContent p{
+        font-size: 20px;
+    }
+    .homeLocationContent button{
+        margin-bottom: 2rem;
+        
+    }
+    .homeLocationContentMap{
+        padding: 1rem;
+    }
+    .homeLocationContentMap iframe{
+        width: 100%;
+    }
+    .homeLocationBg::after{
+        display: none;
+    }
+}
+
+

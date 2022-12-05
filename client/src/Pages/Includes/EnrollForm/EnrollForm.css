@@ -1,0 +1,88 @@
+.enrollFormModal.modal{
+    --bs-modal-zindex: 9999 !important;
+}
+.enrollFormModal .modal-body{
+    position: relative;
+}
+.enrollFormModal .modal-content{
+    background-color: #9cffa0;
+    padding: 1rem;
+    border-radius: 50px;
+}
+
+.enrollFormModal .modal-body img{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background-color: var(--primary);
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.enrollFormModal form input,
+.enrollFormModal form select {
+    background-color: var(--white);
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 20px !important;
+    margin-top: 10px;
+    box-shadow: none;
+}
+.enrollFormModal form input:focus,
+.enrollFormModal form select:focus{
+    box-shadow: none;
+}
+.enrollFormModal form input:focus + label{
+    margin-top: -1.1rem;
+}
+.enrollFormModal .formBtn{
+    width: 100%;
+}
+.disable{
+    cursor: not-allowed !important;
+    opacity: 0.1;
+}
+
+@media (min-width: 319.98px) and (max-width: 379.98px) {
+    .enrollFormModal .contactFormTitleName h2{
+        font-size: 24px;
+    }
+    .enrollFormModal .contactFormTitleBefore::before{
+        height: 13px;
+    }
+}
+
+@media (min-width: 380px) and (max-width: 424.98px) {
+    .enrollFormModal .contactFormTitleName h2{
+        font-size: 24px;
+    }
+    .enrollFormModal .contactFormTitleBefore::before{
+        height: 13px;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 575.98px) {
+    .enrollFormModal .contactFormTitleName h2{
+        font-size: 24px;
+    }
+    .enrollFormModal .contactFormTitleBefore::before{
+        height: 13px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768.98px) {
+
+}
+
+@media (min-width: 769px) and (max-width: 991.98px) {
+    
+}
+
+@media (min-width: 992px) and (max-width: 1023.98px) {}
+
+@media (min-width: 1024px) and (max-width: 1200px) {}
+
+@media (min-width: 1200.98px) and (max-width: 1359px) {}
+
+@media (min-width: 1359.98px) and (max-width: 1440px) {}

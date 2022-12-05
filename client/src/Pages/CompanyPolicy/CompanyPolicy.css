@@ -1,0 +1,163 @@
+.companyPolicyBg {
+    padding: 6rem 0;
+    margin-top: 5rem;
+}
+
+.companyPolicyContent h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: title;
+    text-transform: uppercase;
+    margin: 3rem 0;
+    color: var(--primary);
+}
+
+.companyPolicyContent h2 {
+    font-size: 30px;
+    margin: 3rem 0 1.5rem 0;
+    font-family: boldfont;
+}
+
+.companyPolicyContent p {
+    font-size: 23px;
+    letter-spacing: 0.09em;
+    color: #6A6A6A;
+    text-align: justify;
+}
+
+.companyPolicyContent p a {
+    color: var(--primary);
+    font-family: semibold;
+}
+
+.companyPolicyContent ul {
+    border: 5px dashed var(--primary);
+    border-radius: 55px;
+    padding: 3rem 3rem;
+    margin: 2rem 0;
+}
+
+.companyPolicyContent ul li {
+    color: #727272;
+    font-size: 23px;
+    margin: 15px 0;
+    text-align: justify;
+}
+
+@media (min-width: 319.98px) and (max-width: 379.98px) {
+    .companyPolicyBg{
+        margin: 0;
+    }
+    .companyPolicyContent h1{
+        font-size: 26px;
+    }
+    .companyPolicyContent p{
+        font-size: 16px;
+    }
+    .companyPolicyContent h2{
+        font-size: 20px;
+    }
+    .companyPolicyContent ul{
+        padding: 1rem 2rem;
+    }
+    .companyPolicyContent ul li{
+        font-size: 16px;
+       
+    }
+}
+
+@media (min-width: 380px) and (max-width: 424.98px) {
+    .companyPolicyBg{
+        margin: 0;
+    }
+    .companyPolicyContent h1{
+        font-size: 26px;
+    }
+    .companyPolicyContent p{
+        font-size: 16px;
+    }
+    .companyPolicyContent h2{
+        font-size: 20px;
+    }
+    .companyPolicyContent ul{
+        padding: 1rem 2rem;
+    }
+    .companyPolicyContent ul li{
+        font-size: 16px;
+       
+    }
+}
+
+@media (min-width: 425px) and (max-width: 575.98px) {
+    .companyPolicyBg{
+        margin: 0;
+    }
+    .companyPolicyContent h1{
+        font-size: 26px;
+    }
+    .companyPolicyContent p{
+        font-size: 16px;
+    }
+    .companyPolicyContent h2{
+        font-size: 20px;
+    }
+    .companyPolicyContent ul{
+        padding: 1rem 2rem;
+    }
+    .companyPolicyContent ul li{
+        font-size: 16px;
+       
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768.98px) {
+    .companyPolicyBg{
+        margin: 0;
+    }
+    .companyPolicyContent h1{
+        font-size: 26px;
+    }
+    .companyPolicyContent p{
+        font-size: 16px;
+    }
+    .companyPolicyContent h2{
+        font-size: 20px;
+    }
+    .companyPolicyContent ul{
+        padding: 1rem 2rem;
+    }
+    .companyPolicyContent ul li{
+        font-size: 16px;
+       
+    }
+}
+
+@media (min-width: 769px) and (max-width: 991.98px) {
+    .companyPolicyBg{
+        margin: 0;
+    }
+    .companyPolicyContent h1{
+        font-size: 26px;
+    }
+    .companyPolicyContent p{
+        font-size: 16px;
+    }
+    .companyPolicyContent h2{
+        font-size: 20px;
+    }
+    .companyPolicyContent ul{
+        padding: 1rem 2rem;
+    }
+    .companyPolicyContent ul li{
+        font-size: 16px;
+       
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1023.98px) {}
+
+@media (min-width: 1024px) and (max-width: 1200px) {}
+
+@media (min-width: 1200.98px) and (max-width: 1359px) {}
+
+@media (min-width: 1359.98px) and (max-width: 1440px) {}

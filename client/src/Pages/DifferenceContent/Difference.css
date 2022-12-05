@@ -1,0 +1,612 @@
+.differenceHeaderImg {
+    position: relative;
+    text-align: center;
+    width: 90%;
+    margin: 2rem auto auto auto;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.differenceHeaderImgName {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.differenceHeaderImgName p {
+    margin: 0;
+    color: var(--white);
+    font-size: 23px;
+    font-family: semibold;
+    text-transform: uppercase;
+}
+
+.differenceHeaderImgName.pink {
+    background-color: var(--secondary);
+}
+
+.differenceHeaderImgName.blue {
+    background-color: var(--primary);
+}
+
+.differenceBodyCard {
+    padding: 5rem 3rem;
+    border: 5px dashed var(--primary);
+    border-radius: 55px;
+    margin-bottom: 3rem;
+}
+
+.differenceBodyCard ul li {
+    font-size: 23px;
+    color: #727272;
+    margin: 15px 0;
+    text-align: justify;
+}
+
+.differenceBodyCard ul dd {
+    font-size: 23px;
+    color: #727272;
+    margin: 15px 0;
+    text-align: justify;
+    margin-left: 4rem;
+}
+
+.differenceBodyText {
+    margin: 3rem 0;
+    text-align: center;
+}
+
+.differenceBodyText p {
+    color: var(--primary);
+    font-size: 23px;
+    font-family: mediumfont;
+}
+
+.differenceBodyApproachTitle p {
+    color: var(--secondary);
+    text-align: center;
+    font-size: 23px;
+    font-family: mediumfont;
+}
+
+.differenceBodyApproachCard {
+    border: 5px solid var(--primary);
+    border-radius: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem 3rem;
+    margin: 2rem 0 0 0;
+}
+
+.differenceBodyApproachCard p {
+    font-size: 23px;
+    color: #727272;
+    margin: 0;
+}
+
+.LLNOfferCardBox {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.LLNOfferCard {
+    width: 30%;
+    height: 450px;
+    padding: 1.5rem;
+    border-radius: 25px;
+    background: #F0F3FD;
+    box-shadow: 0px 22px 31px rgba(0, 0, 0, 0.11);
+    z-index: 0;
+    position: relative;
+    margin-top: 3rem;
+}
+
+.LLNOfferCard.popular {
+    width: 40%;
+    height: 550px;
+    box-shadow: -25.8731px 3.56871px 29.4418px rgba(0, 0, 0, 0.1), 25.8731px 0px 29.4418px rgba(0, 0, 0, 0.1);
+    background: #1A1C29;
+    border: 7px solid #FFFFFF;
+    z-index: 1;
+}
+
+.LLNOfferCardIconBox {
+    display: flex;
+    align-items: center;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #3d3d3d59;
+}
+
+.LLNOfferCardIcon img {
+    max-width: 60px;
+    margin-right: 1rem;
+}
+
+.LLNOfferCardName h4 {
+    margin: 0;
+    font-family: boldfont;
+}
+
+.LLNOfferCardContent ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.LLNOfferCardContent ul li {
+    font-size: 18px;
+    font-family: mediumfont;
+    text-transform: capitalize;
+    margin: 1rem 0 0 0;
+}
+
+.LLNOfferCardContent ul li span {
+    font-size: 50px;
+    font-family: boldfont;
+}
+
+.LLNOfferCardContent button {
+    width: 87%;
+    background-color: var(--primary);
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+    position: absolute;
+    bottom: 1.5rem;
+    font-family: semibold;
+    font-size: 18px;
+}
+
+.LLNOfferCardContent button img {
+    margin-left: 10px;
+}
+
+.LLNOfferCard.popular .LLNOfferCardIcon img {
+    max-width: 80px;
+}
+
+.LLNOfferCard.popular .LLNOfferCardName h4 {
+    color: var(--white);
+    font-size: 40px;
+}
+
+.LLNOfferCard.popular .LLNOfferCardContent ul li {
+    font-size: 24px;
+    color: var(--white);
+}
+
+.LLNOfferCard.popular .LLNOfferCardContent ul li span {
+    font-size: 60px;
+}
+
+.LLNOfferCard.popular .LLNOfferCardContent button {
+    padding: 25px;
+    font-size: 20px;
+}
+
+.LLNOfferTitle {
+    text-align: center;
+}
+
+.LLNOfferTitle h2 {
+    font-family: title;
+    color: var(--secondary);
+    font-size: 50px;
+}
+
+.LLNOfferTitle p {
+    color: var(--primary);
+    font-size: 23px;
+}
+
+.LLNOfferBg {
+    padding: 8rem 0 5rem 0;
+}
+
+.differenceBodyBg {
+    position: relative;
+}
+
+.differenceBodyBg::after {
+    position: absolute;
+    content: '';
+    width: 493px;
+    height: 493px;
+    background: #FFA4CA;
+    border-radius: 50%;
+    right: -5rem;
+    top: 40rem;
+    z-index: -1;
+}
+
+.differenceBodyBg::before {
+    position: absolute;
+    content: '';
+    width: 493px;
+    height: 493px;
+    background: rgba(0, 174, 239, 0.35);
+    border-radius: 50%;
+    left: -7rem;
+    bottom: 20rem;
+}
+
+
+@media (min-width: 319.98px) and (max-width: 379.98px) {
+    .differenceBodyCard{
+        padding: 2rem 1rem;
+    }
+    .differenceBodyCard ul li{
+        font-size: 16px;
+    }
+    .differenceBodyCard ul dd{
+        font-size: 16px;
+    }
+    .differenceBodyBg::after,
+    .differenceBodyBg::before{
+        display: none;
+    }
+    .differenceHeaderImgName p{
+        font-size: 18px;
+    }
+    .differenceHeaderImgName{
+        height: 60px;
+    }
+    .differenceBodyText p{
+        font-size: 18px;
+    }
+    .differenceBodyApproachTitle p{
+        font-size: 18px;
+    }
+    .differenceBodyApproachCard p{
+        font-size: 16px;
+    }
+    .LLNOfferTitle h2{
+        font-size: 30px;
+    }
+    .LLNOfferCardBox{
+        display: inherit;
+    }
+    .LLNOfferCard{
+        width: 100%;
+    }
+    .LLNOfferCard.popular{
+        width: 100%;
+    }
+    .LLNOfferCard.popular .LLNOfferCardIcon img{
+        max-width: 60px;
+    }
+    .LLNOfferCard.popular .LLNOfferCardName h4{
+        font-size: 26px;
+    }
+    .LLNOfferCard.popular .LLNOfferCardContent ul li span{
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 380px) and (max-width: 424.98px) {
+    .differenceBodyCard{
+        padding: 2rem 1rem;
+    }
+    .differenceBodyCard ul li{
+        font-size: 16px;
+    }
+    .differenceBodyCard ul dd{
+        font-size: 16px;
+    }
+    .differenceBodyBg::after,
+    .differenceBodyBg::before{
+        display: none;
+    }
+    .differenceHeaderImgName p{
+        font-size: 18px;
+    }
+    .differenceHeaderImgName{
+        height: 60px;
+    }
+    .differenceBodyText p{
+        font-size: 18px;
+    }
+    .differenceBodyApproachTitle p{
+        font-size: 18px;
+    }
+    .differenceBodyApproachCard p{
+        font-size: 16px;
+    }
+    .LLNOfferTitle h2{
+        font-size: 30px;
+    }
+    .LLNOfferCardBox{
+        display: inherit;
+    }
+    .LLNOfferCard{
+        width: 100%;
+    }
+    .LLNOfferCard.popular{
+        width: 100%;
+    }
+    .LLNOfferCard.popular .LLNOfferCardIcon img{
+        max-width: 60px;
+    }
+    .LLNOfferCard.popular .LLNOfferCardName h4{
+        font-size: 26px;
+    }
+    .LLNOfferCard.popular .LLNOfferCardContent ul li span{
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 575.98px) {
+    .differenceBodyCard{
+        padding: 2rem 1rem;
+    }
+    .differenceBodyCard ul li{
+        font-size: 16px;
+    }
+    .differenceBodyCard ul dd{
+        font-size: 16px;
+    }
+    .differenceBodyBg::after,
+    .differenceBodyBg::before{
+        display: none;
+    }
+    .differenceHeaderImgName p{
+        font-size: 18px;
+    }
+    .differenceHeaderImgName{
+        height: 60px;
+    }
+    .differenceBodyText p{
+        font-size: 18px;
+    }
+    .differenceBodyApproachTitle p{
+        font-size: 18px;
+    }
+    .differenceBodyApproachCard p{
+        font-size: 16px;
+    }
+    .LLNOfferTitle h2{
+        font-size: 30px;
+    }
+    .LLNOfferCardBox{
+        display: inherit;
+    }
+    .LLNOfferCard{
+        width: 100%;
+    }
+    .LLNOfferCard.popular{
+        width: 100%;
+    }
+    .LLNOfferCard.popular .LLNOfferCardIcon img{
+        max-width: 60px;
+    }
+    .LLNOfferCard.popular .LLNOfferCardName h4{
+        font-size: 26px;
+    }
+    .LLNOfferCard.popular .LLNOfferCardContent ul li span{
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768.98px) {
+    .differenceBodyCard{
+        padding: 2rem 1rem;
+    }
+    .differenceBodyCard ul li{
+        font-size: 16px;
+    }
+    .differenceBodyCard ul dd{
+        font-size: 16px;
+    }
+    .differenceBodyBg::after,
+    .differenceBodyBg::before{
+        display: none;
+    }
+    .differenceHeaderImgName p{
+        font-size: 18px;
+    }
+    .differenceHeaderImgName{
+        height: 60px;
+    }
+    .differenceBodyText p{
+        font-size: 18px;
+    }
+    .differenceBodyApproachTitle p{
+        font-size: 18px;
+    }
+    .differenceBodyApproachCard p{
+        font-size: 16px;
+    }
+    .LLNOfferTitle h2{
+        font-size: 30px;
+    }
+    .LLNOfferCardBox{
+        display: inherit;
+    }
+    .LLNOfferCard{
+        width: 100%;
+    }
+    .LLNOfferCard.popular{
+        width: 100%;
+    }
+    .LLNOfferCard.popular .LLNOfferCardIcon img{
+        max-width: 60px;
+    }
+    .LLNOfferCard.popular .LLNOfferCardName h4{
+        font-size: 26px;
+    }
+    .LLNOfferCard.popular .LLNOfferCardContent ul li span{
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 991.98px) {
+    .differenceBodyCard{
+        padding: 2rem 1rem;
+    }
+    .differenceBodyCard ul li{
+        font-size: 16px;
+    }
+    .differenceBodyCard ul dd{
+        font-size: 16px;
+    }
+    .differenceBodyBg::after,
+    .differenceBodyBg::before{
+        display: none;
+    }
+    .differenceHeaderImgName p{
+        font-size: 18px;
+    }
+    .differenceHeaderImgName{
+        height: 60px;
+    }
+    .differenceBodyText p{
+        font-size: 18px;
+    }
+    .differenceBodyApproachTitle p{
+        font-size: 18px;
+    }
+    .differenceBodyApproachCard p{
+        font-size: 16px;
+    }
+    .LLNOfferTitle h2{
+        font-size: 30px;
+    }
+    .LLNOfferCardBox{
+        display: inherit;
+    }
+    .LLNOfferCard{
+        width: 100%;
+    }
+    .LLNOfferCard.popular{
+        width: 100%;
+    }
+    .LLNOfferCard.popular .LLNOfferCardIcon img{
+        max-width: 60px;
+    }
+    .LLNOfferCard.popular .LLNOfferCardName h4{
+        font-size: 26px;
+    }
+    .LLNOfferCard.popular .LLNOfferCardContent ul li span{
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1023.98px) {
+    .differenceBodyCard{
+        padding: 2rem 1rem;
+    }
+    .differenceBodyCard ul li{
+        font-size: 16px;
+    }
+    .differenceBodyCard ul dd{
+        font-size: 16px;
+    }
+    .differenceBodyBg::after,
+    .differenceBodyBg::before{
+        display: none;
+    }
+    .differenceHeaderImgName p{
+        font-size: 18px;
+    }
+    .differenceHeaderImgName{
+        height: 60px;
+    }
+    .differenceBodyText p{
+        font-size: 18px;
+    }
+    .differenceBodyApproachTitle p{
+        font-size: 18px;
+    }
+    .differenceBodyApproachCard p{
+        font-size: 16px;
+    }
+    .LLNOfferTitle h2{
+        font-size: 30px;
+    }
+    .LLNOfferCardBox{
+        display: inherit;
+    }
+    .LLNOfferCard{
+        width: 100%;
+    }
+    .LLNOfferCard.popular{
+        width: 100%;
+    }
+    .LLNOfferCard.popular .LLNOfferCardIcon img{
+        max-width: 60px;
+    }
+    .LLNOfferCard.popular .LLNOfferCardName h4{
+        font-size: 26px;
+    }
+    .LLNOfferCard.popular .LLNOfferCardContent ul li span{
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+    .differenceBodyCard{
+        padding: 2rem 1rem;
+    }
+    .differenceBodyCard ul li{
+        font-size: 16px;
+    }
+    .differenceBodyCard ul dd{
+        font-size: 16px;
+    }
+    .differenceBodyBg::after,
+    .differenceBodyBg::before{
+        display: none;
+    }
+    .differenceHeaderImgName p{
+        font-size: 18px;
+    }
+    .differenceHeaderImgName{
+        height: 60px;
+    }
+    .differenceBodyText p{
+        font-size: 18px;
+    }
+    .differenceBodyApproachTitle p{
+        font-size: 18px;
+    }
+    .differenceBodyApproachCard p{
+        font-size: 16px;
+    }
+    .LLNOfferTitle h2{
+        font-size: 30px;
+    }
+    .LLNOfferCardBox{
+        display: inherit;
+    }
+    .LLNOfferCard{
+        width: 100%;
+    }
+    .LLNOfferCard.popular{
+        width: 100%;
+    }
+    .LLNOfferCard.popular .LLNOfferCardIcon img{
+        max-width: 60px;
+    }
+    .LLNOfferCard.popular .LLNOfferCardName h4{
+        font-size: 26px;
+    }
+    .LLNOfferCard.popular .LLNOfferCardContent ul li span{
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 1200.98px) and (max-width: 1359px) {}
+
+@media (min-width: 1359.98px) and (max-width: 1440px) {}

@@ -1,0 +1,498 @@
+.curriculumHeaderSlider .swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.curriculumHeaderSlider .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.curriculumHeaderSlider .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.curriculumHeaderSlider {
+    margin-top: 5rem;
+}
+
+.curriculumList ul {
+    margin: 6rem 0;
+    text-align: start;
+}
+
+.curriculumList ul li {
+    margin: 3rem 0;
+}
+
+.curriculumList ul li .curriculumListIcon {
+    width: 5%;
+}
+
+.curriculumListName {
+    width: 95%;
+    font-size: 23px;
+    letter-spacing: 0.09em;
+    text-transform: capitalize;
+    color: #6A6A6A;
+}
+
+.currculumPageImg {
+    margin: 4rem 0;
+}
+
+.currculumPageImg h2 {
+    margin-top: 3rem;
+}
+
+.currculumPageImg h4 {
+    font-size: 25px;
+    font-family: semibold;
+    margin: 3rem 0;
+}
+.curriculumTitle{
+    text-transform: uppercase;
+    font-family: semibold;
+    margin-bottom: 1.5rem;
+}
+.curriculumTitle.blue {
+    color: var(--primary);
+}
+
+.curriculumTitle.pink {
+    color: var(--secondary);
+}
+
+.currculumPageImg h4 span {
+    font-family: title;
+}
+
+.curriculumEffect1 {
+    position: relative;
+    height: 100%;
+}
+
+.curriculumEffect1::after {
+    position: absolute;
+    content: '';
+    width: 470px;
+    height: 470px;
+    background-color: #9CFFA0;
+    top: 80rem;
+    right: -8rem;
+    border-radius: 50%;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.curriculumEffect1::before {
+    position: absolute;
+    content: '';
+    width: 470px;
+    height: 470px;
+    background-color: #00AEEF59;
+    top: 110rem;
+    left: -9rem;
+    border-radius: 50%;
+    opacity: 0.5;
+}
+
+.curriculumEffect2 {
+    position: relative;
+    height: 100%;
+}
+
+.curriculumEffect2::after {
+    position: absolute;
+    content: '';
+    width: 470px;
+    height: 470px;
+    background-color: #00AEEF59;
+    top: 200rem;
+    right: -8rem;
+    border-radius: 50%;
+    opacity: 0.5;
+}
+
+.curriculumEffect2::before {
+    position: absolute;
+    content: '';
+    width: 300px;
+    height: 300px;
+    background-color: transparent;
+    border: 55px solid #000000;
+    top: 220rem;
+    left: -9rem;
+    border-radius: 50%;
+    opacity: 0.5;
+}
+
+
+.curriculumEffect3 {
+    position: relative;
+    height: 100%;
+}
+
+.curriculumEffect3::after {
+    position: absolute;
+    content: '';
+    width: 194px;
+    height: 194px;
+    background-color: transparent;
+    border: 40px solid #5BCA66;
+    top: 280rem;
+    right: 8rem;
+    border-radius: 50%;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.curriculumEffect3::before {
+    position: absolute;
+    content: '';
+    width: 470px;
+    height: 470px;
+    background-color: #FFA4CA;
+    top: 280rem;
+    left: -9rem;
+    border-radius: 50%;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.curriculumEffect4 {
+    position: relative;
+    height: 100%;
+}
+
+.curriculumEffect4::after {
+    position: absolute;
+    content: '';
+    width: 804px;
+    height: 804px;
+    background-color: #00AEEF59;
+    top: 340rem;
+    right: -18rem;
+    border-radius: 50%;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.curriculumEffect4::before {
+    position: absolute;
+    content: '';
+    width: 470px;
+    height: 470px;
+    background-color: #FFA4CA;
+    top: 440rem;
+    right: -9rem;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+
+
+.curriculumEffect5 {
+    position: relative;
+    height: 100%;
+}
+
+.curriculumEffect5::after {
+    position: absolute;
+    content: '';
+    width: 306px;
+    height: 306px;
+    background-color: transparent;
+    border: 55px solid #FF4747;
+    top: 460rem;
+    left: 4rem;
+    border-radius: 50%;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.curriculumEffect5:before {
+    position: absolute;
+    content: '';
+    width: 437px;
+    height: 348px;
+    background-image: url(../../img/curriculum/icon3.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 500rem;
+    left: 4rem;
+    transform: rotate(35deg);
+}
+
+
+
+.curriculumEffect6 {
+    position: relative;
+    height: 100%;
+}
+
+.curriculumEffect6::after {
+    position: absolute;
+    content: '';
+    width: 404px;
+    height: 446px;
+    background-image: url(../../img/curriculum/icon1.webp);
+    top: 550rem;
+    right: 2rem;
+    z-index: -1;
+}
+
+.curriculumEffect6:before {
+    position: absolute;
+    content: '';
+    width: 291px;
+    height: 120px;
+    background-image: url(../../img/curriculum/icon2.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 610rem;
+    left: 0rem;
+}
+
+
+.curriculumEffect7 {
+    position: relative;
+    height: 100%;
+}
+
+.curriculumEffect7::after {
+    position: absolute;
+    content: '';
+    width: 490px;
+    height: 490px;
+    background-color: #A4F4FF;
+    top: 720rem;
+    right: -8rem;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.curriculumEffect7::before {
+    position: absolute;
+    content: '';
+    width: 306px;
+    height: 306px;
+    background-color: transparent;
+    border: 55px solid #FF4747;
+    top: 670rem;
+    right: 5rem;
+    border-radius: 50%;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+@media (min-width: 319.98px) and (max-width: 379.98px) {
+    .curriculumEffect1{
+        display: none;
+    }
+    .curriculumEffect2{
+        display: none;
+    }
+    .curriculumEffect3{
+        display: none;
+    }
+    .curriculumEffect4{
+        display: none;
+    }
+    .curriculumEffect5{
+        display: none;
+    }
+    .curriculumEffect6{
+        display: none;
+    }
+    .curriculumEffect7{
+        display: none;
+    }
+}
+
+@media (min-width: 380px) and (max-width: 424.98px) {
+    .curriculumEffect1{
+        display: none;
+    }
+    .curriculumEffect2{
+        display: none;
+    }
+    .curriculumEffect3{
+        display: none;
+    }
+    .curriculumEffect4{
+        display: none;
+    }
+    .curriculumEffect5{
+        display: none;
+    }
+    .curriculumEffect6{
+        display: none;
+    }
+    .curriculumEffect7{
+        display: none;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 575.98px) {
+    .curriculumEffect1{
+        display: none;
+    }
+    .curriculumEffect2{
+        display: none;
+    }
+    .curriculumEffect3{
+        display: none;
+    }
+    .curriculumEffect4{
+        display: none;
+    }
+    .curriculumEffect5{
+        display: none;
+    }
+    .curriculumEffect6{
+        display: none;
+    }
+    .curriculumEffect7{
+        display: none;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768.98px) {
+    .curriculumEffect1{
+        display: none;
+    }
+    .curriculumEffect2{
+        display: none;
+    }
+    .curriculumEffect3{
+        display: none;
+    }
+    .curriculumEffect4{
+        display: none;
+    }
+    .curriculumEffect5{
+        display: none;
+    }
+    .curriculumEffect6{
+        display: none;
+    }
+    .curriculumEffect7{
+        display: none;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 991.98px) {
+    .curriculumEffect1{
+        display: none;
+    }
+    .curriculumEffect2{
+        display: none;
+    }
+    .curriculumEffect3{
+        display: none;
+    }
+    .curriculumEffect4{
+        display: none;
+    }
+    .curriculumEffect5{
+        display: none;
+    }
+    .curriculumEffect6{
+        display: none;
+    }
+    .curriculumEffect7{
+        display: none;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1023.98px) {
+    .curriculumEffect1{
+        display: none;
+    }
+    .curriculumEffect2{
+        display: none;
+    }
+    .curriculumEffect3{
+        display: none;
+    }
+    .curriculumEffect4{
+        display: none;
+    }
+    .curriculumEffect5{
+        display: none;
+    }
+    .curriculumEffect6{
+        display: none;
+    }
+    .curriculumEffect7{
+        display: none;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+    .curriculumEffect1{
+        display: none;
+    }
+    .curriculumEffect2{
+        display: none;
+    }
+    .curriculumEffect3{
+        display: none;
+    }
+    .curriculumEffect4{
+        display: none;
+    }
+    .curriculumEffect5{
+        display: none;
+    }
+    .curriculumEffect6{
+        display: none;
+    }
+    .curriculumEffect7{
+        display: none;
+    }
+}
+
+@media (min-width: 1200.98px) and (max-width: 1359px) {
+    .curriculumEffect1{
+        display: none;
+    }
+    .curriculumEffect2{
+        display: none;
+    }
+    .curriculumEffect3{
+        display: none;
+    }
+    .curriculumEffect4{
+        display: none;
+    }
+    .curriculumEffect5{
+        display: none;
+    }
+    .curriculumEffect6{
+        display: none;
+    }
+    .curriculumEffect7{
+        display: none;
+    }
+}
+
+@media (min-width: 1359.98px) and (max-width: 1440px) {}

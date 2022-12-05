@@ -1,0 +1,1571 @@
+.aboutHeaderBg {
+    margin-top: 3rem;
+    position: relative;
+    padding: 0 0 6rem 0;
+}
+
+/* .aboutHeaderBg::after {
+    position: absolute;
+    content: '';
+    width: 500px;
+    height: 500px;
+    background-color: #FFA4CA;
+    border-radius: 50%;
+    top: 0;
+    right: -10rem;
+    z-index: -1;
+} */
+
+.aboutHeaderBg::before {
+    position: absolute;
+    content: '';
+    width: 500px;
+    height: 500px;
+    background-color: #9CFFA0;
+    border-radius: 50%;
+    top: 15rem;
+    left: -10rem;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.aboutTitle h2 {
+    color: var(--primary);
+}
+
+.aboutTitle p {
+    color: var(--secondary);
+    text-align: center;
+    font-size: 25px;
+    font-family: semibold;
+    margin-top: 1rem;
+}
+
+.headerImgBox {
+    margin-top: 4rem;
+}
+
+.headerImage img {
+    border-radius: 30px;
+    margin-top: 1.5rem;
+}
+
+.headerImage.start {
+    margin-top: 9rem;
+}
+
+.headerImage.start img:first-child {
+    max-width: 85%;
+    float: right;
+}
+
+.headerImage.end {
+    margin-top: 4rem;
+}
+
+/* ========founder words======= */
+.founderWords {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.founderWords h4 {
+    width: max-content;
+    margin: 2rem auto;
+    font-family: boldfont;
+    color: var(--secondary);
+    position: relative;
+    background-color: var(--white);
+    padding: 0 1rem;
+}
+
+.founderWords h4::before {
+    position: absolute;
+    content: '';
+    width: 100px;
+    height: 1px;
+    background-color: var(--secondary);
+    top: 50%;
+    left: -3rem;
+    transform: translate(-50%, -50%);
+}
+
+.founderWords h4::after {
+    position: absolute;
+    content: '';
+    width: 100px;
+    height: 1px;
+    background-color: var(--secondary);
+    top: 50%;
+    right: -9.5rem;
+    transform: translate(-50%, -50%);
+}
+
+.founderWords p {
+    font-size: 23px;
+    letter-spacing: 0.09em;
+    /* text-transform: capitalize; */
+    color: #6A6A6A;
+    text-align: justify;
+}
+
+.aboutWhyLLN {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.aboutWhyLLN h4 {
+    font-family: title;
+    color: var(--primary);
+    font-size: 26px;
+}
+
+.aboutWhyLLN p {
+    /* text-transform: capitalize; */
+    color: #656565;
+    font-size: 23px;
+    margin: 1rem 0;
+    text-align: justify;
+}
+
+.aboutWhyLLN img {
+    max-width: 90%;
+    float: right;
+    margin-top: 2rem;
+}
+
+/* ========end============ */
+
+/* =============my child========== */
+.myChildContent {
+    margin: 3rem 0;
+    text-align: center;
+}
+
+.myChildContent h4 {
+    font-family: title;
+    font-size: 30px;
+    color: var(--secondary);
+}
+
+.myChildContent p {
+    font-size: 23px;
+    color: #656565;
+    margin-top: 2rem;
+    /* text-transform: capitalize; */
+}
+
+.myChildSubject {
+    margin-top: 2rem;
+}
+
+.myChildSubject ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.myChildSubject ul li {
+    width: 234px;
+    height: 234px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+    font-family: boldfont;
+    font-size: 28px;
+    text-align: center;
+    padding: 1rem;
+}
+
+.myChildSubject ul li:nth-child(1) {
+    background-color: var(--secondary);
+}
+
+.myChildSubject ul li:nth-child(2) {
+    background-color: var(--tertiary);
+}
+
+.myChildSubject ul li:nth-child(3) {
+    background-color: var(--primary);
+}
+
+.myChildSubject ul li:nth-child(4) {
+    background-color: var(--secondary);
+}
+
+.myChildSubject ul li:nth-child(5) {
+    background-color: var(--tertiary);
+}
+
+.myChlidContent {
+    margin: 4rem 0;
+    text-align: center;
+}
+
+.myChlidContent p {
+    font-size: 23px;
+    letter-spacing: 0.09em;
+    /* text-transform: capitalize; */
+    color: #6A6A6A;
+    text-align: justify;
+}
+
+.myChlidContent h2 {
+    font-family: title;
+    color: var(--secondary);
+    margin-bottom: 2rem;
+}
+
+.kidsBox {
+    text-align: center;
+}
+
+.kidsBox img {
+    border-radius: 15px;
+}
+
+/* ================end============ */
+
+/* ==================about founder================= */
+
+.founderBg {
+    background-color: var(--primary);
+    padding: 15rem 0;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.founderBg::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 230px;
+    background-image: url(../../img/about/top.webp);
+    background-position: center;
+    background-size: cover;
+    top: -1px;
+}
+
+.founderBg::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 230px;
+    background-image: url(../../img/about/bottom.webp);
+    background-position: center;
+    background-size: cover;
+    bottom: -1px;
+}
+
+.founderContent {
+    text-align: center;
+}
+
+.founderContent h2 {
+    color: #FFC700;
+    font-size: 40px;
+    font-family: boldfont;
+}
+
+.founderContent p {
+    font-size: 23px;
+    letter-spacing: 0.09em;
+    /* text-transform: capitalize; */
+    color: var(--white);
+    margin: 3rem 0;
+    text-align: justify;
+}
+
+.founderCard {
+    text-align: center;
+    margin: 4rem 0;
+}
+
+.founderCard h4 {
+    font-family: title;
+    color: var(--white);
+    font-size: 35px;
+    margin-bottom: 2rem;
+}
+
+.founderCard p {
+    font-size: 23px;
+    letter-spacing: 0.09em;
+    /* text-transform: capitalize; */
+    color: var(--white);
+    text-align: justify;
+}
+
+.founderAnimationCircle {
+    width: 340px;
+    height: 340px;
+    background-color: var(--primary);
+    border-radius: 50%;
+    margin: 4rem auto auto auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.founderAnimationCircle p {
+    font-size: 30px;
+    color: var(--white);
+    transform: rotate(-17.8deg);
+    font-family: semibold;
+}
+
+.founderAnimationCircle.circle1 {
+    background-color: var(--secondary);
+    animation: circle1 10s infinite;
+}
+
+.founderAnimationCircle.circle2 {
+    background-color: var(--tertiary);
+    animation: circle2 10s infinite;
+}
+
+.founderAnimationCircle.circle3 {
+    background-color: #0085B7;
+    animation: circle3 10s infinite;
+}
+
+.founderAnimationCircle.circle4 {
+    background-color: #9A2C5A;
+    animation: circle4 10s infinite;
+}
+
+.founderAnimationCircle.circle5 {
+    background-color: #84D3FF;
+    animation: circle5 10s infinite;
+}
+
+.founderAnimationCircle.circle6 {
+    background-color: #7929FF;
+    animation: circle6 10s infinite;
+}
+
+@keyframes circle1 {
+    0% {
+        border-radius: 60% 40% 30% 70% / 30% 60% 50% 80%;
+    }
+
+    50% {
+        border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+    }
+
+    100% {
+        border-radius: 60% 40% 30% 70% / 30% 60% 50% 80%;
+    }
+
+}
+
+@keyframes circle2 {
+    0% {
+        border-radius: 60% 40% 30% 70% / 60% 20% 80% 30%;
+    }
+
+    50% {
+        border-radius: 30% 60% 70% 40% / 45% 55% 40% 80%;
+    }
+
+    100% {
+        border-radius: 60% 40% 30% 70% / 60% 20% 80% 30%;
+    }
+
+}
+
+@keyframes circle3 {
+    0% {
+        border-radius: 60% 40% 30% 70% / 60% 50% 40% 60%;
+    }
+
+    50% {
+        border-radius: 30% 60% 70% 40% / 40% 60% 70% 60%;
+    }
+
+    100% {
+        border-radius: 60% 40% 30% 70% / 60% 50% 40% 60%;
+    }
+
+}
+
+@keyframes circle4 {
+    0% {
+        border-radius: 60% 40% 30% 70% / 30% 60% 50% 50%;
+    }
+
+    50% {
+        border-radius: 30% 60% 70% 40% / 60% 30% 70% 50%;
+    }
+
+    100% {
+        border-radius: 60% 40% 30% 70% / 30% 60% 50% 50%;
+    }
+
+}
+
+@keyframes circle5 {
+    0% {
+        border-radius: 60% 40% 30% 70% / 30% 50% 40% 60%;
+    }
+
+    50% {
+        border-radius: 30% 60% 70% 40% / 50% 30% 60% 40%;
+    }
+
+    100% {
+        border-radius: 60% 40% 30% 70% / 30% 50% 40% 60%;
+    }
+
+}
+
+@keyframes circle6 {
+    0% {
+        border-radius: 60% 40% 30% 70% / 30% 40% 50% 60%;
+    }
+
+    50% {
+        border-radius: 30% 60% 70% 40% / 70% 50% 70% 40%;
+    }
+
+    100% {
+        border-radius: 60% 40% 30% 70% / 30% 40% 50% 60%;
+    }
+
+}
+
+
+
+/* ==================end============= */
+
+@media (min-width: 319.98px) and (max-width: 379.98px) {
+    .aboutHeaderBg {
+        overflow: hidden;
+        margin-top: 8rem;
+        padding: 0 0 3rem 0;
+    }
+
+    .aboutHeaderBg::after {
+        width: 200px;
+        height: 200px;
+        right: -5rem;
+    }
+
+    .aboutHeaderBg::before {
+        width: 200px;
+        height: 200px;
+        left: -5rem;
+    }
+
+    .headerImage.start {
+        margin-top: 6.5rem;
+    }
+
+    .headerImage.end {
+        margin-top: 0rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .headerImage.end img:nth-child(1) {
+        max-width: 130px;
+    }
+
+    .headerImage.end img:nth-child(2) {
+        max-width: 200px;
+    }
+
+    .founderWords p {
+        font-size: 16px;
+        letter-spacing: normal;
+    }
+
+    .aboutWhyLLN h4 {
+        margin-top: 3rem;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .aboutWhyLLN p {
+        font-size: 16px;
+        letter-spacing: normal;
+    }
+
+    .aboutWhyLLN {
+        align-items: center;
+    }
+
+    .myChildContent h4 {
+        margin-top: 3rem;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .myChildContent p {
+        font-size: 16px;
+        letter-spacing: normal;
+    }
+
+    .myChildSubject ul {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .myChildSubject ul li {
+        width: 150px;
+        height: 150px;
+        font-size: 16px;
+        margin: 10px;
+    }
+
+    .myChlidContent p {
+        font-size: 16px;
+        letter-spacing: normal;
+    }
+
+    .founderWords h4::before {
+        width: 70px;
+        left: -2rem;
+    }
+
+    .founderWords h4::after {
+        width: 70px;
+        right: -6.5rem;
+    }
+
+    .founderBg::after {
+        background-size: cover;
+        background-position: center;
+        top: -2px;
+        background-repeat: no-repeat;
+        height: 50px;
+    }
+
+    .founderBg::before {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 50px;
+        bottom: -1px;
+    }
+
+    .founderBg {
+        padding: 6rem 0;
+    }
+
+    .founderContent h2 {
+        font-size: 22px;
+    }
+
+    .founderContent p {
+        font-size: 16px;
+        letter-spacing: normal;
+    }
+
+    .founderCard h4 {
+        font-size: 20px;
+    }
+
+    .founderCard p {
+        font-size: 16px;
+        letter-spacing: normal;
+    }
+
+    .founderAnimationCircle p {
+        font-size: 20px;
+    }
+
+    .founderAnimationCircle {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media (min-width: 380px) and (max-width: 424.98px) {
+    .aboutHeaderBg {
+        overflow: hidden;
+        margin-top: 8rem;
+        padding: 0 0 3rem 0;
+    }
+
+    .aboutHeaderBg::after {
+        width: 200px;
+        height: 200px;
+        right: -5rem;
+    }
+
+    .aboutHeaderBg::before {
+        width: 200px;
+        height: 200px;
+        left: -5rem;
+    }
+
+    .headerImage.start {
+        margin-top: 6.5rem;
+    }
+
+    .headerImage.end {
+        margin-top: 0rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .headerImage.end img:nth-child(1) {
+        max-width: 130px;
+    }
+
+    .headerImage.end img:nth-child(2) {
+        max-width: 200px;
+    }
+
+    .founderWords p {
+        font-size: 16px;
+        letter-spacing: normal;
+    }
+
+    .aboutWhyLLN h4 {
+        margin-top: 3rem;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .aboutWhyLLN p {
+        font-size: 16px;
+        letter-spacing: normal;
+    }
+
+    .aboutWhyLLN {
+        align-items: center;
+    }
+
+    .myChildContent h4 {
+        margin-top: 3rem;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .myChildContent p {
+        font-size: 16px;
+        letter-spacing: normal;
+    }
+
+    .myChildSubject ul {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .myChildSubject ul li {
+        width: 150px;
+        height: 150px;
+        font-size: 16px;
+        margin: 10px;
+    }
+
+    .myChlidContent p {
+        font-size: 16px;
+        letter-spacing: normal;
+    }
+
+    .founderWords h4::before {
+        width: 70px;
+        left: -2rem;
+    }
+
+    .founderWords h4::after {
+        width: 70px;
+        right: -6.5rem;
+    }
+
+    .founderBg::after {
+        background-size: cover;
+        background-position: center;
+        top: -2px;
+        background-repeat: no-repeat;
+        height: 50px;
+    }
+
+    .founderBg::before {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 50px;
+        bottom: -1px;
+    }
+
+    .founderBg {
+        padding: 6rem 0;
+    }
+
+    .founderContent h2 {
+        font-size: 22px;
+    }
+
+    .founderContent p {
+        font-size: 16px;
+        letter-spacing: normal;
+    }
+
+    .founderCard h4 {
+        font-size: 20px;
+    }
+
+    .founderCard p {
+        font-size: 16px;
+        letter-spacing: normal;
+    }
+
+    .founderAnimationCircle p {
+        font-size: 20px;
+    }
+
+    .founderAnimationCircle {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 575.98px) {
+    .aboutHeaderBg {
+        overflow: hidden;
+        margin-top: 8rem;
+        padding: 0 0 3rem 0;
+    }
+
+    .aboutHeaderBg::after {
+        width: 200px;
+        height: 200px;
+        right: -5rem;
+    }
+
+    .aboutHeaderBg::before {
+        width: 200px;
+        height: 200px;
+        left: -5rem;
+    }
+
+    .headerImage.start {
+        margin-top: 6.5rem;
+    }
+
+    .headerImage.end {
+        margin-top: 0rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .headerImage.end img:nth-child(1) {
+        max-width: 130px;
+    }
+
+    .headerImage.end img:nth-child(2) {
+        max-width: 200px;
+    }
+
+    .founderWords p {
+        font-size: 16px;
+        letter-spacing: normal;
+    }
+
+    .aboutWhyLLN h4 {
+        margin-top: 3rem;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .aboutWhyLLN p {
+        font-size: 16px;
+        letter-spacing: normal;
+    }
+
+    .aboutWhyLLN {
+        align-items: center;
+    }
+
+    .myChildContent h4 {
+        margin-top: 3rem;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .myChildContent p {
+        font-size: 16px;
+        letter-spacing: normal;
+    }
+
+    .myChildSubject ul {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .myChildSubject ul li {
+        width: 150px;
+        height: 150px;
+        font-size: 16px;
+        margin: 10px;
+    }
+
+    .myChlidContent p {
+        font-size: 16px;
+        letter-spacing: normal;
+    }
+
+    .founderWords h4::before {
+        width: 70px;
+        left: -2rem;
+    }
+
+    .founderWords h4::after {
+        width: 70px;
+        right: -6.5rem;
+    }
+
+    .founderBg::after {
+        background-size: cover;
+        background-position: center;
+        top: -2px;
+        background-repeat: no-repeat;
+        height: 50px;
+    }
+
+    .founderBg::before {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 50px;
+        bottom: -1px;
+    }
+
+    .founderBg {
+        padding: 6rem 0;
+    }
+
+    .founderContent h2 {
+        font-size: 22px;
+    }
+
+    .founderContent p {
+        font-size: 16px;
+        letter-spacing: normal;
+    }
+
+    .founderCard h4 {
+        font-size: 20px;
+    }
+
+    .founderCard p {
+        font-size: 16px;
+        letter-spacing: normal;
+    }
+
+    .founderAnimationCircle p {
+        font-size: 20px;
+    }
+
+    .founderAnimationCircle {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .aboutHeaderBg {
+        overflow: hidden;
+        margin-top: 8rem;
+        padding: 0 0 3rem 0;
+    }
+
+    .aboutHeaderBg::after {
+        width: 200px;
+        height: 200px;
+        right: -5rem;
+    }
+
+    .aboutHeaderBg::before {
+        width: 200px;
+        height: 200px;
+        left: -5rem;
+    }
+
+    .headerImage.start {
+        margin-top: 6.5rem;
+    }
+
+    .headerImage.end {
+        margin-top: 0rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .headerImage.end img:nth-child(1) {
+        max-width: 130px;
+    }
+
+    .headerImage.end img:nth-child(2) {
+        max-width: 200px;
+    }
+
+    .founderWords p {
+        font-size: 16px;
+        letter-spacing: normal;
+    }
+
+    .aboutWhyLLN h4 {
+        margin-top: 3rem;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .aboutWhyLLN p {
+        font-size: 16px;
+        letter-spacing: normal;
+    }
+
+    .aboutWhyLLN {
+        align-items: center;
+    }
+
+    .myChildContent h4 {
+        margin-top: 3rem;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .myChildContent p {
+        font-size: 16px;
+        letter-spacing: normal;
+    }
+
+    .myChildSubject ul {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .myChildSubject ul li {
+        width: 150px;
+        height: 150px;
+        font-size: 16px;
+        margin: 10px;
+    }
+
+    .myChlidContent p {
+        font-size: 16px;
+        letter-spacing: normal;
+    }
+
+    .founderWords h4::before {
+        width: 70px;
+        left: -2rem;
+    }
+
+    .founderWords h4::after {
+        width: 70px;
+        right: -6.5rem;
+    }
+
+    .founderBg::after {
+        background-size: cover;
+        background-position: center;
+        top: -2px;
+        background-repeat: no-repeat;
+        height: 50px;
+    }
+
+    .founderBg::before {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 50px;
+        bottom: -1px;
+    }
+
+    .founderBg {
+        padding: 6rem 0;
+    }
+
+    .founderContent h2 {
+        font-size: 22px;
+    }
+
+    .founderContent p {
+        font-size: 16px;
+        letter-spacing: normal;
+    }
+
+    .founderCard h4 {
+        font-size: 20px;
+    }
+
+    .founderCard p {
+        font-size: 16px;
+        letter-spacing: normal;
+    }
+
+    .founderAnimationCircle p {
+        font-size: 20px;
+    }
+
+    .founderAnimationCircle {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .aboutHeaderBg {
+        overflow: hidden;
+        margin-top: 8rem;
+        padding: 0 0 3rem 0;
+    }
+
+    .aboutHeaderBg::after {
+        width: 200px;
+        height: 200px;
+        right: -5rem;
+    }
+
+    .aboutHeaderBg::before {
+        width: 200px;
+        height: 200px;
+        left: -5rem;
+    }
+
+    .headerImage.start {
+        margin-top: 2rem;
+    }
+
+    .headerImage.end {
+        margin-top: 0rem;
+    }
+
+    .headerImage.end img:nth-child(1) {
+        max-width: 130px;
+    }
+
+    .headerImage.end img:nth-child(2) {
+        max-width: 200px;
+    }
+
+    .founderWords p {
+        font-size: 16px;
+        letter-spacing: normal;
+    }
+
+    .aboutWhyLLN h4 {
+        margin-top: 3rem;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .aboutWhyLLN p {
+        font-size: 16px;
+        letter-spacing: normal;
+    }
+
+    .aboutWhyLLN {
+        align-items: center;
+    }
+
+    .myChildContent h4 {
+        margin-top: 3rem;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .myChildContent p {
+        font-size: 16px;
+        letter-spacing: normal;
+    }
+
+    .myChildSubject ul {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .myChildSubject ul li {
+        width: 150px;
+        height: 150px;
+        font-size: 16px;
+        margin: 10px;
+    }
+
+    .myChlidContent p {
+        font-size: 16px;
+        letter-spacing: normal;
+    }
+
+    .founderWords h4::before {
+        width: 70px;
+        left: -2rem;
+    }
+
+    .founderWords h4::after {
+        width: 70px;
+        right: -6.5rem;
+    }
+
+    .founderBg::after {
+        background-size: cover;
+        background-position: center;
+        top: -2px;
+        background-repeat: no-repeat;
+        height: 95px;
+    }
+
+    .founderBg::before {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 95px;
+        bottom: -1px;
+    }
+
+    .founderBg {
+        padding: 6rem 0;
+    }
+
+    .founderContent h2 {
+        font-size: 22px;
+    }
+
+    .founderContent p {
+        font-size: 16px;
+        letter-spacing: normal;
+    }
+
+    .founderCard h4 {
+        font-size: 20px;
+    }
+
+    .founderCard p {
+        font-size: 16px;
+        letter-spacing: normal;
+    }
+
+    .founderAnimationCircle p {
+        font-size: 20px;
+    }
+
+    .founderAnimationCircle {
+        width: 250px;
+        height: 250px;
+    }
+
+    .kidsBox img {
+        max-width: 350px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1023.98px) {
+    .aboutHeaderBg {
+        overflow: hidden;
+        margin-top: 8rem;
+        padding: 0 0 3rem 0;
+    }
+
+    .aboutHeaderBg::after {
+        width: 200px;
+        height: 200px;
+        right: -5rem;
+    }
+
+    .aboutHeaderBg::before {
+        width: 200px;
+        height: 200px;
+        left: -5rem;
+    }
+
+    .headerImage.start {
+        margin-top: 2rem;
+    }
+
+    .headerImage.end {
+        margin-top: 0rem;
+    }
+
+    .headerImage.end img:nth-child(1) {
+        max-width: 130px;
+    }
+
+    .headerImage.end img:nth-child(2) {
+        max-width: 200px;
+    }
+
+    .founderWords p {
+        font-size: 16px;
+        letter-spacing: normal;
+    }
+
+    .aboutWhyLLN h4 {
+        margin-top: 3rem;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .aboutWhyLLN p {
+        font-size: 16px;
+        letter-spacing: normal;
+    }
+
+    .aboutWhyLLN {
+        align-items: center;
+    }
+
+    .myChildContent h4 {
+        margin-top: 3rem;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .myChildContent p {
+        font-size: 16px;
+        letter-spacing: normal;
+    }
+
+    .myChildSubject ul {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .myChildSubject ul li {
+        width: 150px;
+        height: 150px;
+        font-size: 16px;
+        margin: 10px;
+    }
+
+    .myChlidContent p {
+        font-size: 16px;
+        letter-spacing: normal;
+    }
+
+    .founderWords h4::before {
+        width: 70px;
+        left: -2rem;
+    }
+
+    .founderWords h4::after {
+        width: 70px;
+        right: -6.5rem;
+    }
+
+    .founderBg::after {
+        background-size: cover;
+        background-position: center;
+        top: -2px;
+        background-repeat: no-repeat;
+        height: 95px;
+    }
+
+    .founderBg::before {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 95px;
+        bottom: -1px;
+    }
+
+    .founderBg {
+        padding: 6rem 0;
+    }
+
+    .founderContent h2 {
+        font-size: 22px;
+    }
+
+    .founderContent p {
+        font-size: 16px;
+        letter-spacing: normal;
+    }
+
+    .founderCard h4 {
+        font-size: 20px;
+    }
+
+    .founderCard p {
+        font-size: 16px;
+        letter-spacing: normal;
+    }
+
+    .founderAnimationCircle p {
+        font-size: 20px;
+    }
+
+    .founderAnimationCircle {
+        width: 250px;
+        height: 250px;
+    }
+
+    .kidsBox img {
+        max-width: 350px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1199.98px) {
+    .aboutHeaderBg {
+        overflow: hidden;
+        margin-top: 8rem;
+        padding: 0 0 3rem 0;
+    }
+    
+    .aboutHeaderBg::after {
+        width: 200px;
+        height: 200px;
+        right: -5rem;
+    }
+    
+    .aboutHeaderBg::before {
+        width: 200px;
+        height: 200px;
+        left: -5rem;
+    }
+    
+    .headerImage.start {
+        margin-top: 2rem;
+    }
+    
+    .headerImage.end {
+        margin-top: 0rem;
+    }
+    
+    .headerImage.end img:nth-child(1) {
+        max-width: 130px;
+    }
+    
+    .headerImage.end img:nth-child(2) {
+        max-width: 200px;
+    }
+    
+    .founderWords p {
+        font-size: 18px;
+    }
+    
+    .aboutWhyLLN h4 {
+        margin-top: 3rem;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .aboutWhyLLN p {
+        font-size: 18px;
+    }
+    
+    .aboutWhyLLN {
+        align-items: center;
+    }
+    
+    .myChildContent h4 {
+        margin-top: 3rem;
+        font-size: 24px;
+        text-align: center;
+    }
+    
+    .myChildContent p {
+        font-size: 18px;
+    }
+    
+    .myChildSubject ul {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .myChildSubject ul li {
+        width: 150px;
+        height: 150px;
+        font-size: 18px;
+        margin: 10px;
+    }
+    
+    .myChlidContent p {
+        font-size: 18px;
+    }
+    
+    .founderWords h4::before {
+        width: 70px;
+        left: -2rem;
+    }
+    
+    .founderWords h4::after {
+        width: 70px;
+        right: -6.5rem;
+    }
+    
+    .founderBg::after {
+        background-size: cover;
+        background-position: center;
+        top: -2px;
+        background-repeat: no-repeat;
+        height: 125px;
+    }
+    
+    .founderBg::before {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 125px;
+        bottom: -1px;
+    }
+    
+    .founderBg {
+        padding: 6rem 0;
+    }
+    
+    .founderContent h2 {
+        font-size: 24px;
+    }
+    
+    .founderContent p {
+        font-size: 18px;
+    }
+    
+    .founderCard h4 {
+        font-size: 24px;
+    }
+    
+    .founderCard p {
+        font-size: 18px;
+    }
+    
+    .founderAnimationCircle p {
+        font-size: 24px;
+    }
+    
+    .founderAnimationCircle {
+        width: 250px;
+        height: 250px;
+    }
+    
+    .kidsBox img {
+        max-width: 350px;
+    }
+}
+
+
+
+@media (min-width: 1200px) and (max-width: 1366.98px) {
+    .aboutHeaderBg {
+        overflow: hidden;
+        margin-top: 8rem;
+        padding: 0 0 3rem 0;
+    }
+    
+    .aboutHeaderBg::after {
+        width: 400px;
+        height: 400px;
+        right: -5rem;
+    }
+    
+    .aboutHeaderBg::before {
+        width: 400px;
+        height: 400px;
+        left: -5rem;
+    }
+    
+    .headerImage.start {
+        margin-top: 2rem;
+    }
+    
+    .headerImage.end {
+        margin-top: 0rem;
+    }
+    
+    .headerImage.end img:nth-child(1) {
+        max-width: 130px;
+    }
+    
+    .headerImage.end img:nth-child(2) {
+        max-width: 200px;
+    }
+    
+    
+    
+    .aboutWhyLLN h4 {
+        margin-top: 3rem;
+        font-size: 28px;
+    }
+    
+
+    .myChildContent h4 {
+        margin-top: 3rem;
+        font-size: 28px;
+        text-align: center;
+    }
+    
+
+    .myChildSubject ul {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .myChildSubject ul li {
+        width: 150px;
+        height: 150px;
+        font-size: 18px;
+        margin: 10px;
+    }
+    
+ 
+    .founderWords h4::before {
+        width: 70px;
+        left: -2rem;
+    }
+    
+    .founderWords h4::after {
+        width: 70px;
+        right: -6.5rem;
+    }
+    
+    .founderBg::after {
+        background-size: cover;
+        background-position: center;
+        top: -2px;
+        background-repeat: no-repeat;
+
+    }
+    
+    .founderBg::before {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        bottom: -1px;
+    }
+    
+    .founderBg {
+        padding: 6rem 0;
+    }
+    
+    .founderContent h2 {
+        font-size: 28px;
+    }
+    
+
+    .founderCard h4 {
+        font-size: 28px;
+    }
+
+    .founderAnimationCircle p {
+        font-size: 24px;
+    }
+    
+    .founderAnimationCircle {
+        width: 250px;
+        height: 250px;
+    }
+    
+
+}
+
+@media (min-width: 1367px) and (max-width: 1440px) {}

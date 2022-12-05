@@ -1,0 +1,739 @@
+.programHeaderImgCard {
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.programHeaderImgCard img {
+    width: 100%;
+}
+
+.programHeaderCardName {
+    position: absolute;
+    bottom: 0;
+    padding: 1.5rem 0;
+    background: black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.programHeaderCardName h4 {
+    color: var(--white);
+    margin: 0;
+    text-align: center;
+    font-family: extrabold;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.programHeaderCardName.one {
+    background: rgba(27, 157, 231, 0.5);
+}
+
+.programHeaderCardName.two {
+    background: rgba(235, 73, 141, 0.5);
+}
+
+.programHeaderCardName.three {
+    background: rgba(74, 63, 209, 0.5);
+}
+
+.programHeaderCardName.four {
+    background: rgba(74, 63, 209, 0.5);
+}
+
+.programHeaderCardName.five {
+    background: rgba(27, 157, 231, 0.5);
+}
+
+.programHeaderCardName.six {
+    background: rgba(235, 73, 141, 0.5);
+}
+
+.programHeaderCardName.seven {
+    background: rgba(235, 73, 141, 0.5);
+}
+
+.programHeaderCardName.eight {
+    background: rgba(74, 63, 209, 0.5);
+}
+
+.programBodyContent {
+    text-align: center;
+    margin: 5rem 0;
+}
+
+.programBodyContent h4 {
+    font-family: title;
+    font-size: 26px;
+    text-transform: uppercase;
+}
+
+.programBodyContent h5 {
+    margin: 5rem 0;
+    font-size: 25px;
+    color: #141414;
+    font-family: boldfont;
+    text-transform: capitalize;
+}
+
+.programBodyContent.pink h4 {
+    color: var(--secondary);
+}
+
+.programBodyContent.blue h4 {
+    color: var(--primary);
+}
+
+.programBodyContent p {
+    color: #6a6a6a;
+    font-size: 23px;
+    letter-spacing: .09em;
+    text-align: justify;
+    /* text-transform: capitalize; */
+    margin: 3rem 0;
+}
+
+.programBodyCard {
+    padding: 2rem 8rem 8rem 2rem;
+    border-radius: 20px;
+    height: 300px;
+    margin: 1.5rem 0 0 0;
+}
+
+.programBodyCard p {
+    font-size: 30px;
+    line-height: 172.5%;
+    color: var(--white);
+}
+
+.programBodyCard.card1 {
+    background-color: #FF7D7D;
+    background-image: url(../../img/program/card1.webp);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 180px;
+    box-shadow: 14px 9px 40px rgba(255, 125, 125, 0.4);
+}
+
+.programBodyCard.card2 {
+    background-color: #8CC641;
+    background-image: url(../../img/program/card2.webp);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 180px;
+    box-shadow: 14px 9px 40px rgba(140, 198, 65, 0.4);
+}
+
+.programBodyCard.card3 {
+    background-color: #7DC1FF;
+    background-image: url(../../img/program/card3.webp);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 180px;
+    box-shadow: 14px 9px 40px rgba(125, 193, 255, 0.4);
+}
+
+.programBodyCard.card4 {
+    background-color: #CC8CFF;
+    background-image: url(../../img/program/card4.webp);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 180px;
+    box-shadow: 14px 9px 40px rgba(204, 140, 255, 0.4);
+}
+
+.programBodyCircleCardBox ul {
+    display: flex;
+    padding: 0;
+    margin: 3rem 0;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.programBodyCircleCard {
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    position: relative;
+}
+
+.programBodyCircleCard::before {
+    position: absolute;
+    content: '';
+    width: 120px;
+    height: 120px;
+    background-color: transparent;
+    bottom: 0;
+    right: 1rem;
+    border-radius: 50%;
+    box-shadow: -25.092px -22.878px 29.5201px rgba(0, 0, 0, 0.11);
+}
+
+.programBodyCircleCard p {
+    color: var(--white);
+    font-size: 23px;
+    margin: 0;
+}
+
+.programBodyCircleCard.card1 {
+    background-color: #7DC1FF;
+}
+
+.programBodyCircleCard.card2 {
+    background-color: #CC8CFF;
+}
+
+.programBodyCircleCard.card3 {
+    background-color: #8CC641;
+}
+
+.porgramCategoryCardBox ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.porgramCategoryCard {
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    margin-bottom: 3rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.porgramCategoryCard p {
+    color: var(--white);
+    font-size: 30px;
+    font-family: extrabold;
+    text-transform: uppercase;
+    margin: 0;
+    z-index: 99;
+    text-align: center;
+}
+
+
+.porgramCategoryCard::after {
+    position: absolute;
+    content: '';
+    width: 150px;
+    height: 150px;
+    background-color: transparent;
+    bottom: 0;
+    right: 0;
+    border-radius: 50%;
+    box-shadow: -25.092px -22.878px 29.5201px rgba(0, 0, 0, 0.11);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    z-index: 0;
+    background-size: auto;
+}
+
+.porgramCategoryCard.card1 {
+    background-color: #007DF1;
+}
+
+.porgramCategoryCard.card1::after {
+    background-image: url(../../img/program/BALLET.webp);
+}
+
+.porgramCategoryCard.card2 {
+    background-color: #FF4E4E;
+}
+
+.porgramCategoryCard.card2::after {
+    background-image: url(../../img/program/FOOTBALL.webp);
+}
+
+.porgramCategoryCard.card3 {
+    background-color: #E8D427;
+}
+
+.porgramCategoryCard.card3::after {
+    background-image: url(../../img/program/ZUMBA.webp);
+}
+
+.porgramCategoryCard.card4 {
+    background-color: #887DFF;
+}
+
+.porgramCategoryCard.card4::after {
+    background-image: url(../../img/program/Gymnastics.webp);
+}
+
+.porgramCategoryCard.card5 {
+    background-color: #FF8CAF;
+}
+
+.porgramCategoryCard.card5::after {
+    background-image: url(../../img/program/Karate.webp);
+}
+
+.porgramCategoryCard.card6 {
+    background-color: #C64141;
+}
+
+.porgramCategoryCard.card6::after {
+    background-image: url(../../img/program/Artscraft.webp);
+}
+
+.porgramCategoryCard.card7 {
+    background-color: #8CC641;
+}
+
+.porgramCategoryCard.card7::after {
+    background-image: url(../../img/program/Sensoryplay.webp);
+}
+
+.progremHexagonShapeBox ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.progremHexagonShape p {
+    color: var(--white);
+    font-size: 18px;
+    font-family: semibold;
+    text-align: center;
+    text-transform: capitalize;
+    margin: 0;
+    padding: 2rem;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.progremHexagonShape {
+    width: 300px;
+    height: 370px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.progremHexagonShape.shape1 {
+    background-image: url(../../img/program/green.png);
+}
+
+.progremHexagonShape.shape2 {
+    background-image: url(../../img/program/blue.png);
+}
+
+.progremHexagonShape.shape3 {
+    background-image: url(../../img/program/yellow.png);
+}
+
+
+.SSEPCardBox ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.SSEPCard {
+    width: 300px;
+    height: 350px;
+    background-color: var(--white);
+    /* box-shadow: 10px 11px 30px rgba(0, 0, 0, 0.09); */
+    border-radius: 30px;
+    position: relative;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: 100px;
+}
+
+.SSEPCard p {
+    font-size: 26px;
+    font-family: extrabold;
+    text-align: center;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+.SSEPCard.card1 {
+    background-image: url(../../img/program/1.webp);
+    background-color: #ff707024;
+}
+
+.SSEPCard.card2 {
+    background-image: url(../../img/program/2.webp);
+    background-color: #ffe35224;
+}
+
+.SSEPCard.card3 {
+    background-image: url(../../img/program/3.webp);
+    background-color: #45de5e29;
+}
+
+.SSEPCard.card4 {
+    background-image: url(../../img/program/4.webp);
+    background-color: #3db9ff29;
+}
+
+.SSEPCard.card5 {
+    background-image: url(../../img/program/5.webp);
+    background-color: #925fff24;
+}
+
+.SSEPCard.card6 {
+    background-image: url(../../img/program/6.webp);
+    background-color: #f68be52e;
+}
+
+.SSEPCard.card1 p {
+    color: #FF7070;
+}
+
+.SSEPCard.card2 p {
+    color: #FFE352;
+}
+
+.SSEPCard.card3 p {
+    color: #45DE5E;
+}
+
+.SSEPCard.card4 p {
+    color: #3DB9FF;
+}
+
+.SSEPCard.card5 p {
+    color: #925FFF;
+}
+
+.SSEPCard.card6 p {
+    color: #F68BE5;
+}
+
+
+@media (min-width: 319.98px) and (max-width: 379.98px) {
+    .programBodyContent p{
+        font-size: 16px;
+    }
+    .programBodyContent h4{
+        font-size: 20px;
+    }
+    .programBodyCard p{
+        font-size: 20px;
+    }
+    .programBodyCircleCardBox ul{
+        display: inherit;
+    }
+    .programBodyCircleCardBox ul li{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 1.5rem;
+    }
+    .progremHexagonShapeBox ul{
+        display: inherit;
+    }
+    .progremHexagonShapeBox ul li{
+        margin-bottom: 1.5rem;
+    }
+    .progremHexagonShape p{
+        font-size: 20px;
+    }
+    .SSEPCardBox ul{
+        justify-content: center;
+    }
+    .porgramCategoryCard p{
+        font-size: 20px;
+    }
+    .SSEPCard p{
+        font-size: 20px;
+    }
+    .progremHexagonShape{
+        width: 100%;
+    }
+}
+
+@media (min-width: 380px) and (max-width: 424.98px) {
+    .programBodyContent p{
+        font-size: 16px;
+    }
+    .programBodyContent h4{
+        font-size: 20px;
+    }
+    .programBodyCard p{
+        font-size: 20px;
+    }
+    .programBodyCircleCardBox ul{
+        display: inherit;
+    }
+    .programBodyCircleCardBox ul li{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 1.5rem;
+    }
+    .progremHexagonShapeBox ul{
+        display: inherit;
+    }
+    .progremHexagonShapeBox ul li{
+        margin-bottom: 1.5rem;
+    }
+    .progremHexagonShape p{
+        font-size: 20px;
+    }
+    .SSEPCardBox ul{
+        justify-content: center;
+    }
+    .porgramCategoryCard p{
+        font-size: 20px;
+    }
+    .SSEPCard p{
+        font-size: 20px;
+    }
+    .progremHexagonShape{
+        width: 100%;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 575.98px) {
+    .programBodyContent p{
+        font-size: 16px;
+    }
+    .programBodyContent h4{
+        font-size: 20px;
+    }
+    .programBodyCard p{
+        font-size: 20px;
+    }
+    .programBodyCircleCardBox ul{
+        display: inherit;
+    }
+    .programBodyCircleCardBox ul li{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 1.5rem;
+    }
+    .progremHexagonShapeBox ul{
+        display: inherit;
+    }
+    .progremHexagonShapeBox ul li{
+        margin-bottom: 1.5rem;
+    }
+    .progremHexagonShape p{
+        font-size: 20px;
+    }
+    .SSEPCardBox ul{
+        justify-content: center;
+    }
+    .porgramCategoryCard p{
+        font-size: 20px;
+    }
+    .SSEPCard p{
+        font-size: 20px;
+    }
+    .progremHexagonShape{
+        width: 100%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768.98px) {
+    .programBodyContent p{
+        font-size: 16px;
+    }
+    .programBodyContent h4{
+        font-size: 20px;
+    }
+    .programBodyCard p{
+        font-size: 20px;
+    }
+    .programBodyCircleCardBox ul{
+        display: inherit;
+    }
+    .programBodyCircleCardBox ul li{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 1.5rem;
+    }
+    .progremHexagonShapeBox ul{
+        display: inherit;
+    }
+    .progremHexagonShapeBox ul li{
+        margin-bottom: 1.5rem;
+    }
+    .progremHexagonShape p{
+        font-size: 20px;
+    }
+    .SSEPCardBox ul{
+        justify-content: center;
+    }
+    .porgramCategoryCard p{
+        font-size: 20px;
+    }
+    .SSEPCard p{
+        font-size: 20px;
+    }
+    .progremHexagonShape{
+        width: 100%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 991.98px) {
+    .programBodyContent p{
+        font-size: 16px;
+    }
+    .programBodyContent h4{
+        font-size: 20px;
+    }
+    .programBodyCard p{
+        font-size: 20px;
+    }
+    .programBodyCircleCardBox ul{
+        display: inherit;
+    }
+    .programBodyCircleCardBox ul li{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 1.5rem;
+    }
+    .progremHexagonShapeBox ul{
+        display: inherit;
+    }
+    .progremHexagonShapeBox ul li{
+        margin-bottom: 1.5rem;
+    }
+    .progremHexagonShape p{
+        font-size: 20px;
+    }
+    .SSEPCardBox ul{
+        justify-content: center;
+    }
+    .porgramCategoryCard p{
+        font-size: 20px;
+    }
+    .SSEPCard p{
+        font-size: 20px;
+    }
+    .progremHexagonShape{
+        width: 100%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1023.98px) {
+    .programBodyContent p{
+        font-size: 16px;
+    }
+    .programBodyContent h4{
+        font-size: 20px;
+    }
+    .programBodyCard p{
+        font-size: 20px;
+    }
+    .programBodyCircleCardBox ul{
+        display: inherit;
+    }
+    .programBodyCircleCardBox ul li{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 1.5rem;
+    }
+    .progremHexagonShapeBox ul{
+        display: inherit;
+    }
+    .progremHexagonShapeBox ul li{
+        margin-bottom: 1.5rem;
+    }
+    .progremHexagonShape p{
+        font-size: 20px;
+    }
+    .SSEPCardBox ul{
+        justify-content: center;
+    }
+    .porgramCategoryCard p{
+        font-size: 20px;
+    }
+    .SSEPCard p{
+        font-size: 20px;
+    }
+    .progremHexagonShape{
+        width: 100%;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+    .programBodyContent p{
+        font-size: 16px;
+    }
+    .programBodyContent h4{
+        font-size: 20px;
+    }
+    .programBodyCard p{
+        font-size: 20px;
+    }
+    .programBodyCircleCardBox ul{
+        display: inherit;
+    }
+    .programBodyCircleCardBox ul li{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 1.5rem;
+    }
+    .progremHexagonShapeBox ul{
+        display: inherit;
+    }
+    .progremHexagonShapeBox ul li{
+        margin-bottom: 1.5rem;
+    }
+    .progremHexagonShape p{
+        font-size: 20px;
+    }
+    .SSEPCardBox ul{
+        justify-content: center;
+    }
+    .porgramCategoryCard p{
+        font-size: 20px;
+    }
+    .SSEPCard p{
+        font-size: 20px;
+    }
+    .progremHexagonShape{
+        width: 100%;
+    }
+}
+
+@media (min-width: 1200.98px) and (max-width: 1359px) {}
+
+@media (min-width: 1359.98px) and (max-width: 1440px) {}
