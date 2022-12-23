@@ -34,7 +34,7 @@ const CurriculumBody = () => {
                                                 <b>A Unique Child:</b> Every child is a unique child who is constantly learning and can be resilient, capable, confident and self-assured.
                                             </li>
                                             <li>Our children/students develop the ability to build on positive connections/relationships with the world around them.</li>
-                                            <li>Children learn and develop well in enabling environments with teaching and support from adults, who respond to their individual interests and needs and help them to build their learning over time. Children benefit from a strong partnership between practitioners and parents and/or carers. Environment is the third teacher for a child, the others being Parents and the school teacher respectively.</li>
+                                            <li>Children are able to adapt and pursue well in welcoming learning spaces with loving support from facilitators around them, who guide them to achieve their milestones. It can be identified that parent-teacher partnership is an essential element throughout a child’s learning journey at LLN. Environment is the third teacher for a child, the others being Parents and the school teacher respectively.</li>
                                             <li>Importance of learning and development. Children develop and learn at different rates</li>
                                         </ul>
                                     </div>
@@ -46,7 +46,7 @@ const CurriculumBody = () => {
                                         <h2>(PSED) <br />
                                             Personal, Social and Emotional Development</h2>
 
-                                        <p>Little Lambs Nursery will focus on children's mental and physical wellbeing. Children will work on long-term skills to build a healthy foundation that they can take forward. They will develop/improve Self-Regulation; Managing Self; Building Relationships. Little Lambs Nursery will provide children with lots of social opportunities. Children can learn to form healthy bonds and make stable, lasting friendships. They’ll learn what is right and what is wrong, alongside respect and compassion. Children will develop independence and self-esteem. They will learn to play with other children ad Little Lambs Nursery will assess the children on the stage of play they are in and be a facilitator to overcome the stage wherever possible.</p>
+                                        <p>Little Lambs Nursery will focus on children's mental and physical wellbeing. Children will work on long-term skills to build a healthy foundation that they can take forward. They will develop/improve Self-Regulation; Managing Self; Building Relationships. Little Lambs Nursery will provide children with lots of social opportunities. At our nursery, we encourage our students to learn and build healthy relationships within the nursery with their peers and teachers. They’ll learn what is right and what is wrong, alongside respect and compassion. Children will develop independence and self-esteem. They will learn to play with other children ad Little Lambs Nursery will assess the children on the stage of play they are in and be a facilitator to overcome the stage wherever possible.</p>
 
                                     </div>
 
@@ -67,7 +67,7 @@ const CurriculumBody = () => {
                                     <div className="currculumPageImg">
                                         <img src={Literacy} alt="Literacy" className="img-fluid" />
                                         <h4 className="curriculumTitle blue">Literacy </h4>
-                                        <p>Little Lambs Nursery will provide support to the children in the areas of Comprehension; Word Reading; Writing. Children will begin to build connections between spoken sounds and the letters in writing. Little Lambs Nursery will provide loads of experience with letters and words, pictures and objects, and sounds. Children will get lots of opportunities to communicate through written language. The essential part of learning in Literacy would start with pre-writing skill improvement and jolly phonics. Little Lambs Nursery will follow the Oxford reading tree with different levels of color bands and track the records of reading of each child. Children will be assessed on the stages of writing and stages of reading; and teachers will support/facilitate each child to achieve success at each level and move to the next.</p>
+                                        <p>Little Lambs Nursery will provide support to the children in the areas of Comprehension; Word Reading; Writing. Throughout the child’s learning journey at LLN, he/she will be able to master the skill of ‘Phonemic Awareness’. Little Lambs Nursery will provide loads of experience with letters and words, pictures and objects, and sounds. Children will get lots of opportunities to communicate through written language. The essential part of learning in Literacy would start with pre-writing skill improvement and jolly phonics. Little Lambs Nursery will follow the Oxford reading tree with different levels of color bands and track the records of reading of each child. Children will be assessed on the stages of writing and stages of reading; and teachers will support/facilitate each child to achieve success at each level and move to the next.</p>
                                     </div>
 
                                     <div className="currculumPageImg">
@@ -85,7 +85,7 @@ const CurriculumBody = () => {
                                     <div className="currculumPageImg">
                                         <img src={ead} alt="ead" className="img-fluid" />
                                         <h4 className="curriculumTitle pink"><span>(EAD)</span> <br /> Expressive Arts and Design</h4>
-                                        <p>Little Lambs Nursery will support children's creative development and expression. It helps children create their own art works and encourages them to value their own thoughts, opinions and skills. The two areas in this area of learning are-</p>
+                                        <p>Little Lambs Nursery will support children's creative development and expression. With the positive reinforcement provided by our staff, children will be able to use their imaginative abilities to formulate/or create their work in terms of ‘Expressive Arts & Design’. The two areas in this area of learning are-</p>
                                         <div className="differenceBodyCard">
                                             <ul>
                                                 <li>
