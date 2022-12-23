@@ -33,7 +33,7 @@ const CurriculumBody = () => {
                                             <li>
                                                 <b>A Unique Child:</b> Every child is a unique child who is constantly learning and can be resilient, capable, confident and self-assured.
                                             </li>
-                                            <li> Children learn to be strong and independent through positive relationships</li>
+                                            <li> Our children/students develop the ability to build on positive connections/relationships with the world around them.</li>
                                             <li>Children learn and develop well in enabling environments with teaching and support from adults, who respond to their individual interests and needs and help them to build their learning over time. Children benefit from a strong partnership between practitioners and parents and/or carers. Environment is the third teacher for a child, the others being Parents and the school teacher respectively.</li>
                                             <li>Importance of learning and development. Children develop and learn at different rates</li>
                                         </ul>
