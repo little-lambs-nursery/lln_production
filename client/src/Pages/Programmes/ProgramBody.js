@@ -217,7 +217,7 @@ const ProgramBody = () => {
                                             <li>Expressive arts and design.</li>
                                         </ul>
                                     </div>
-                                    <p>Planning in the early years is about meeting young children's needs so that they can play and learn happily in ways which will help them develop skills and knowledge across the Prime and Specific areas of learning in the EYFS</p>
+                                    <p>Developing a set-up plan in Early Years is mainly circulated around each child’s individual potential/growth, which will guide them to flourish their vital skills, documented in the ‘Learning Ladder’</p>
                                     <h5>We have highlighted a few key features of this below for you to get a feel of what we do in the Little Lambs Nursery</h5>
                                     <div className='differenceBodyCard'>
                                         <ul>
