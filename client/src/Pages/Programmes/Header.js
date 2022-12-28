@@ -1,6 +1,6 @@
 import './Programmes.css'
 import React from 'react'
-import bladder_bowl from '../../img/program/bladder_bowl.webp'
+import bladder_bowl from '../../img/program/blader_bowl.webp'
 import CAMP from '../../img/program/CAMP.webp'
 import PEP from '../../img/program/PEP.webp'
 import Smart_Juniorz_Program from '../../img/program/Smart_Juniorz_Program.webp'
