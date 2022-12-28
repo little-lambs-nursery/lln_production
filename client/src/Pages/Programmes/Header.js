@@ -1,6 +1,6 @@
 import './Programmes.css'
 import React from 'react'
-import blader_bowl from '../../img/program/blader_bowl.webp'
+import bladder_bowl from '../../img/program/bladder_bowl.webp'
 import CAMP from '../../img/program/CAMP.webp'
 import PEP from '../../img/program/PEP.webp'
 import Smart_Juniorz_Program from '../../img/program/Smart_Juniorz_Program.webp'
@@ -25,9 +25,9 @@ const Header = () => {
                         <div className='row d-flex justify-content-center mt-5'>
                             <div className='col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12'>
                                 <div className='programHeaderImgCard'>
-                                    <img src={blader_bowl} alt="blader_bowl" className="img-fluid" />
+                                    <img src={bladder_bowl} alt="bladder_bowl" className="img-fluid" />
                                     <div className='programHeaderCardName one'>
-                                        <h4>blader & bowl</h4>
+                                        <h4>bladder & bowl</h4>
                                     </div>
                                 </div>
                             </div>
