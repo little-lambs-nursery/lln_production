@@ -46,7 +46,7 @@ const Footer = () => {
                             </div>
                             <div className="co-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
                                 <div className="footerList">
-                                    <h4>PROGRAMS</h4>
+                                    <h4>PROGRAMMES</h4>
                                     <ul>
                                         <li>
                                             <Link to="/programmes">Pre School</Link>
