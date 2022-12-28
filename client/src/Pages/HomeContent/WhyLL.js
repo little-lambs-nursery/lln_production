@@ -39,7 +39,7 @@ const WhyLL = () => {
                                     </div>
                                     <div className="whyLLCardContent">
                                         <h4>Best Price & <br />Offers</h4>
-                                        <p>Little Lambs Nursery is offering the highest quality education at the best prices, We have made our plans & offers very feasable for parents at unbeatable prices.</p>
+                                        <p>Little Lambs Nursery offers the highest quality education at the best prices, We have made our plans & offers very feasible for parents at unbeatable prices.</p>
                                     </div>
                                 </div>
                             </div>
@@ -49,10 +49,10 @@ const WhyLL = () => {
                                         <img src={eyfs} alt="eyfs" className="img-fluid" />
                                     </div>
                                     <div className="whyLLCardContent">
-                                        <h4>Early Year Foundation <br />Stage based Learning</h4>
-                                        <p>Little Lambs Nursery Follows EYFS based learning programme,
+                                        <h4>Early Year Foundation <br />Stage-based Learning</h4>
+                                        <p>Little Lambs Nursery Follows EYFS-based learning programme,
                                             the first curriculum in England to cross the
-                                            division between pre school and school.</p>
+                                            division between preschool and school.</p>
                                     </div>
                                 </div>
                             </div>
