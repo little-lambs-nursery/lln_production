@@ -11,8 +11,8 @@ const WhyLL = () => {
                         <div className="row d-flex justify-content-center">
                             <div className="col-lg-8">
                                 <div className="title whyLL">
-                                    <h2>why little lambs nursery</h2>
-                                    <p>Little Lambs Nursery Dubai, a British curriculum nursery (EYFS), located in the heart of Mankool. We at Little Lambs Nursery promises to provide a learning adventure combined with enjoyment and entertainment along with a secure learning environment for your little ones.</p>
+                                    <h2>Why choose Little Lambs Nursery</h2>
+                                    <p>Little Lambs Nursery is an all-rounder nurturing British Curriculum Nursery following the Early Years Foundation Stage (EYFS) located in the heart of Al Mankhool area. With our friendly and highly qualified staff and modern facilities, we at Little Lambs not only provide a healthy, safe and secure learning environment for our children, but also an enabling learning space alongside the high safety standards, which will promote positivity of learning and fun for the kids. Little Lambs Nursery accepts children from 45 days-5 years. We at LLN strongly believe and promote the ideology that ‘every child is unique’. Our aim is to develop the child’s potential and build on the inspiration of learning in their world so that they ‘Love to Learn at Little Lambs’.</p>
                                 </div>
                             </div>
                         </div>
