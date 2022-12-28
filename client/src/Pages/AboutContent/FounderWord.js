@@ -19,7 +19,7 @@ const FounderWord = () => {
                                 <div className="aboutWhyLLN">
                                     <h4>Why is Little Lambs Nursery the right learning space for my child?</h4>
                                     <p><b>“Imagination is more important than knowledge.”</b> <i>  Albert Einstein</i></p>
-                                    <p>We at Little Lambs Nursery strongly believe the application of the above statement as we promote the ideology that ‘every child is unique’. A child of Little Lambs Nursery will develop a unique understanding about various applications in everyday life. In the result of this, the child will begin to use and apply new thinking approaches to solve challenges along the way and develop problem-solving skills.</p>
+                                    <p>We at Little Lambs Nursery strongly believe in the application of the above statement as we promote the ideology that ‘every child is unique’. A child of Little Lambs Nursery will develop a unique understanding of various applications in everyday life. As a result of this, the child will begin to use and apply new thinking approaches to solve challenges along the way and develop problem-solving skills.</p>
                                 </div>
                             </div>
                             <div className="col-xl-5 col-lg-5 col-md-6 col-12 col-12">
