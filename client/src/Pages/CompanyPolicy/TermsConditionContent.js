@@ -16,7 +16,9 @@ const TermsConditionContent = () => {
                                         The terms and conditions of Little Lambs Nursery regulate the information collected from all the  users of the website
                                         <a href="https://www.nurserylittlelambs.com/" target="_blank">
                                             www.nurserylittlelambs.com
-                                        </a>. </br> By accessing the LLN website the user acknowledges to have read and understood the terms and conditions of this legal agreement. Though the agreement is not signed physically and is electronically visited, it forms a legal bond between the user and Little Lambs Nursery.</br>
+                                        </a>.<br></br> 
+                                        By accessing the LLN website the user acknowledges to have read and understood the terms and conditions of this legal agreement. Though the agreement is not signed physically and is electronically visited, it forms a legal bond between the user and Little Lambs Nursery.</br>
+                                        <br></br>
                                     </p>
                                     <h2>Advertisements</h2>
                                     <p>During the user’s visit to the site, the user may come across advertisements from a third party. Any activity related to these advertisements is conducted by the user’s sole acceptance.  Little Lambs Nursery shall have no obligation, responsibility or liability for any such kind of activity like purchase or promotion between the user and the third party.</p>
