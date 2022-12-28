@@ -17,7 +17,7 @@ const TermsConditionContent = () => {
                                         <a href="https://www.nurserylittlelambs.com/" target="_blank">
                                             www.nurserylittlelambs.com
                                         </a>.<br></br> 
-                                        By accessing the LLN website the user acknowledges to have read and understood the terms and conditions of this legal agreement. Though the agreement is not signed physically and is electronically visited, it forms a legal bond between the user and Little Lambs Nursery.</br>
+                                        By accessing the LLN website the user acknowledges to have read and understood the terms and conditions of this legal agreement. Though the agreement is not signed physically and is electronically visited, it forms a legal bond between the user and Little Lambs Nursery.
                                         <br></br>
                                     </p>
                                     <h2>Advertisements</h2>
