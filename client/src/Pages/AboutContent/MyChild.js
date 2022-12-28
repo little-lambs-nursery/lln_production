@@ -15,7 +15,7 @@ const MyChild = () => {
                                 <div className="myChildSubject">
                                     <ul>
                                         <li>ENGLISH</li>
-                                        <li>METHAMETICS</li>
+                                        <li>MATHEMATICS</li>
                                         <li>SCIENCE</li>
                                         <li>SOCIAL STUDIES</li>
                                         <li>INFORMATION TECHNOLOGY</li>
