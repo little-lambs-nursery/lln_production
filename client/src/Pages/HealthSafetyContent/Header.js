@@ -13,7 +13,7 @@ const Header = () => {
                             <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div className="offerHeaderImg">
                                     <img src={header1} alt="header1" className='img-fluid' />
-                                    <h2>Maintainence</h2>
+                                    <h2>Maintenance</h2>
                                 </div>
                             </div>
                             <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
