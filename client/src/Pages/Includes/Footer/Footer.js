@@ -114,17 +114,17 @@ const Footer = () => {
                                 <div className='footerSocialLinks'>
                                     <ul>
                                         <li>
-                                            <a href="">
+                                            <a href="https://www.facebook.com/nurserylittlelambs" target="_blank">
                                                 <img src={facebook} alt="facebook" className='img-fluid' />
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="">
+                                            <a href="https://www.instagram.com/nurserylittlelambsdubai" target="_blank">
                                                 <img src={instagram} alt="instagram" className='img-fluid' />
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="">
+                                            <a href="https://www.linkedin.com/company/nursey-little-lambs/" target="_blank">
                                                 <img src={linkedin} alt="linkedin" className='img-fluid' />
                                             </a>
                                         </li>
