@@ -57,13 +57,11 @@ const tableIcons = {
 const Enquiry = () => {
     const navigate = useNavigate();
     const { admin, setAdmin } = AdminState()
-    console.log("admin", admin)
     // const { cart, setCart } = CartState();
     // if (!cart || !cart.token) {
     //     navigate('/admin/signin')
     // }
     if (!admin && !admin?.token) {
-        console.log("INSIDE !!!!!!!!!!!!");
         navigate('/admin/login')
     }
     const [users, setUsers] = useState([])
@@ -82,7 +80,6 @@ const Enquiry = () => {
     const getData = async () => {
         setLoading(true)
         const data = await axios.get(`${BASEURL}/api/enquiry`)
-        console.log(data.data.data)
         setUsers(data.data.data)
         setLoading(false)
     }
@@ -121,7 +118,6 @@ const Enquiry = () => {
 
     const handleExport = () => {
         const fileData = users.map(userData => {
-            console.log("userdadta", userData)
             return {
                 ...userData, tableData: null
             }
