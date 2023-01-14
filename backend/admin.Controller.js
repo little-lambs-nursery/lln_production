@@ -57,7 +57,7 @@ export const postContactUs = async (req, res) => {
 
 export const getAllEnquiries = async (req, res) => {
     try {
-        const pageSize = 2;
+        const pageSize = 10;
         const page = Number(req.query.page) || 1;
 
         const data = await Enquiry.find({}).sort({ createdAt: -1 }).limit(pageSize).skip((page - 1) * pageSize)
