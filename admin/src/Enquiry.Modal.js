@@ -15,7 +15,7 @@ const ConfirmModal = (props) => {
             toast.error('ⓓ Please select the enquiry status!', errorToast);
         } else {
             try {
-                const { data } = await axios.post(`${BASEURL}/api/update-enquiry`, { status: state,message:message,id:selected._id })
+                const { data } = await axios.post(`${BASEURL}/api/update-enquiry`, { status: state, message: message, id: selected._id })
                 if (data.errorcode === 0) {
                     toast.success(`ⓓ ${data.msg}!`, successToast);
                     console.log("props.course", props.course)
@@ -50,11 +50,11 @@ const ConfirmModal = (props) => {
                 </Modal.Title>
             </Modal.Header>
             <Modal.Body>
-               
+
                 <Row>
                     <Col xs={12} lg={12} xl={12}>
                         <Form.Group controlId='name'>
-                        <Form.Label>Status</Form.Label>
+                            <Form.Label>Status</Form.Label>
                             <Form.Control
                                 as='select'
                                 placeholder='Select the Enquiry'
@@ -79,10 +79,10 @@ const ConfirmModal = (props) => {
                             <Form.Label>Message</Form.Label>
                             <Form.Control
                                 as='textarea'
-                                placeholder='Enter Email'
+                                placeholder='Type here...'
                                 name="email"
                                 value={message}
-                                onChange={(e)=>setMessage(e.target.value)}
+                                onChange={(e) => setMessage(e.target.value)}
                             ></Form.Control>
                         </Form.Group>
                     </Col>
