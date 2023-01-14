@@ -1,10 +1,13 @@
-import React,{ forwardRef, useEffect, useState }  from 'react'
+import React, { forwardRef, useEffect, useState } from 'react'
 import axios from 'axios'
 import { useNavigate, Link, useParams } from 'react-router-dom'
 import MaterialTable from 'material-table'
 import EditIcon from '@mui/icons-material/Edit';
-import {BASEURL} from './Constants'
+import { BASEURL } from './Constants'
 import EnquiryModal from "./Enquiry.Modal"
+import DeleteModal from './Delete.Modal';
+import Button from 'react-bootstrap/Button';
+import papaparse from "papaparse";
 import {
     AddBox,
     ArrowDownward,
@@ -53,13 +56,13 @@ const tableIcons = {
 
 const Enquiry = () => {
     const navigate = useNavigate();
-    const {admin,setAdmin}=AdminState()
-    console.log("admin",admin)
+    const { admin, setAdmin } = AdminState()
+    console.log("admin", admin)
     // const { cart, setCart } = CartState();
     // if (!cart || !cart.token) {
     //     navigate('/admin/signin')
     // }
-    if(!admin && !admin?.token) {
+    if (!admin && !admin?.token) {
         console.log("INSIDE !!!!!!!!!!!!");
         navigate('/admin/login')
     }
@@ -68,9 +71,10 @@ const Enquiry = () => {
     const [selected, setSelected] = useState('')
     const [render, setRender] = useState(false)
     const [loading, setLoading] = useState(false)
+    const [deleteModalShow, setDeleteModalShow] = React.useState(false);
 
     useEffect(() => {
-        
+
         if (render) setRender(false)
         getData()
     }, [render])
@@ -88,11 +92,26 @@ const Enquiry = () => {
         setModalShow(true)
     }
 
+    const handleDelete = (e, f) => {
+        setDeleteModalShow(true)
+        setSelected(f)
+    }
+    const myFunction = async () => {
+        try {
+            await axios.post(`${BASEURL}/api/delete-enquiry`, { id: selected })
+            setRender(true)
+            setDeleteModalShow(false)
+
+        } catch (error) {
+            console.log(error.message)
+        }
+    }
+
     const columns = [
-        { title: "Child Name", field: "childName", },
-        { title: "Child Age", field: "childAge", },
-        { title: "Parent Name", field: "parentName" },
-        { title: "Parent Number", field: "parentNumber" },
+        { title: "Child_Name", field: "childName", },
+        { title: "Child_Age", field: "childAge", },
+        { title: "Parent_Name", field: "parentName" },
+        { title: "Parent_Number", field: "parentNumber" },
         { title: "Email", field: "email" },
         { title: "Program", field: "program" },
         { title: "Offer", field: "offer" },
@@ -100,36 +119,62 @@ const Enquiry = () => {
         { title: "Message", field: "message" }
     ]
 
-  return (
-    <div class="col main pt-5 mt-1" style={{height:"98vh"}}>
-          <>
-            <EnquiryModal
-                show={modalShow}
-                onHide={() => setModalShow(false)}
-                selected={selected}
-                setRender={() => setRender(true)}
-            />
-            <div className="p-5 bg-light rounded-3 ">
-                <div>
-                    {/* <div lg={3} className='text-center'>
+    const handleExport = () => {
+        const fileData = users.map(userData => {
+            console.log("userdadta", userData)
+            return {
+                ...userData, tableData: null
+            }
+
+
+        });
+
+        const csv = papaparse.unparse(fileData);
+        const link = document.createElement("a");
+        link.href = "data:text/csv;charset=utf-8," + encodeURI(csv);
+        link.download = "data.csv";
+        link.click();
+    }
+
+
+
+    return (
+        <div class="col main pt-5 mt-1" style={{ height: "98vh" }}>
+            <>
+                <EnquiryModal
+                    show={modalShow}
+                    onHide={() => setModalShow(false)}
+                    selected={selected}
+                    setRender={() => setRender(true)}
+                />
+                <DeleteModal
+                    show={deleteModalShow}
+                    onHide={() => setDeleteModalShow(false)}
+                    selected={selected}
+                    myFunction={myFunction}
+                    setRender={() => setRender(true)}
+                />
+                <div className="p-5 bg-light rounded-3 ">
+                    <div>
+                        {/* <div lg={3} className='text-center'>
                         <Link to="/admin" className="btn btn-light my-3">
                             Go Back
                         </Link>
                     </div> */}
-                    <div lg={6} >
-                        <h1 className="m-0 p-0 text-center square ">ENQUIRY</h1>
+                        <div lg={6} >
+                            <h1 className="m-0 p-0 text-center square ">ENQUIRY</h1>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div className='pt-5' style={{ zIndex: -1 }}>
-                {/* <Row>
+                <div className='pt-5' style={{ zIndex: -1 }}>
+                    {/* <Row>
                     <Col>
                         <h2>Enquiry List</h2>
                     </Col>
                 </Row> */}
-                {/* {loading ? <Loader /> */}
+                    {/* {loading ? <Loader /> */}
                     {/* : */}
-                    <MaterialTable title={'Enquiries'}
+                    <MaterialTable title={<Button variant="success" onClick={handleExport}>Export</Button>}
                         data={users}
                         columns={columns}
                         icons={tableIcons}
@@ -137,6 +182,7 @@ const Enquiry = () => {
                             {
                                 actionsColumnIndex: -1,
                                 addRowPosition: "first",
+                                pageSize: 20,
                                 rowStyle: (rowData) => {
                                     return {
                                         // fontFamily: "Mulish-Regular",
@@ -168,15 +214,24 @@ const Enquiry = () => {
                                         handleEdit(event, rowData)
                                     }
                                 },
+                                {
+                                    icon: DeleteOutline,
+                                    tooltip: 'Delete User',
+                                    onClick: (event, rowData) => {
+
+                                        // Do save operation
+                                        handleDelete(event, rowData._id)
+                                    }
+                                },
                             ]}
                     />
-                {/* // } */}
-            </div>
-        </>
+                    {/* // } */}
+                </div>
+            </>
 
 
         </div>
-  )
+    )
 }
 
 export default Enquiry

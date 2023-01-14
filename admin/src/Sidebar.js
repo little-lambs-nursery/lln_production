@@ -19,7 +19,7 @@ const Sidebar = () => {
                         <span className="ml-3">Enquiries</span>
                     </Link>
                 </li>
-                <li class="nav-item mb-2">
+                {/* <li class="nav-item mb-2">
                     <a class="nav-link text-secondary" href="#submenu1" data-toggle="collapse" data-target="#submenu1">
                         <i class="far fa-file-word font-weight-bold"></i>
                         <span className="ml-3"> Reports▾</span>
@@ -35,7 +35,7 @@ const Sidebar = () => {
                 <li class="nav-item mb-2"><a class="nav-link text-secondary" href="#"><i class="fas fa-atom font-weight-bold"></i> <span className="ml-3">Flex</span></a></li>
                 <li class="nav-item mb-2"><a class="nav-link text-secondary" href="#"><i class="far fa-folder font-weight-bold"></i> <span className="ml-3">Layouts</span></a></li>
                 <li class="nav-item mb-2"><a class="nav-link text-secondary" href="#">Templates</a></li>
-                <li class="nav-item mb-2"><a class="nav-link text-secondary" href="#">Themes</a></li>
+                <li class="nav-item mb-2"><a class="nav-link text-secondary" href="#">Themes</a></li> */}
             </ul>
         </div>
     )
