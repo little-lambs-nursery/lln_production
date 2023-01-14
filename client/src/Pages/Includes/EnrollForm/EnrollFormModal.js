@@ -24,41 +24,49 @@ const EnrollFormModal = (props) => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    await Axios.post(`${BASEURL}api/enrollData`, {
-      childName: input.childName,
-      childAge: input.childAge,
-      parentName: input.parentName,
-      parentNumber: input.parentNumber,
-      email: input.email,
-      program: program,
-      offer: offer
-    })
-      .then(data => {
-        if (data.data.errorcode == 0) {
-          toast.success(`${data.data.msg}`, {
-            position: "bottom-center",
-            autoClose: 2000,
-            hideProgressBar: false,
-            closeOnClick: true,
-            pauseOnHover: true,
-            draggable: true,
-            progress: undefined,
-          });
-          props.onHide()
-        }
-        else {
-          toast.error(`${data.data.msg}`, {
-            position: "bottom-center",
-            autoClose: 2000,
-            hideProgressBar: false,
-            closeOnClick: true,
-            pauseOnHover: true,
-            draggable: true,
-            progress: undefined,
-          });
-        }
-
+    try {
+      await Axios.post(`${BASEURL}api/enrollData`, {
+        childName: input.childName,
+        childAge: input.childAge,
+        parentName: input.parentName,
+        parentNumber: input.parentNumber,
+        email: input.email,
+        program: program,
+        offer: offer
       })
+        .then(data => {
+          if (data.data.errorcode == 0) {
+            toast.success(`${data.data.msg}`, {
+              position: "bottom-center",
+              autoClose: 2000,
+              hideProgressBar: false,
+              closeOnClick: true,
+              pauseOnHover: true,
+              draggable: true,
+              progress: undefined,
+            });
+            setInput({})
+            props.onHide()
+
+          }
+          else {
+            toast.error(`${data.data.msg}`, {
+              position: "bottom-center",
+              autoClose: 2000,
+              hideProgressBar: false,
+              closeOnClick: true,
+              pauseOnHover: true,
+              draggable: true,
+              progress: undefined,
+            });
+            setInput({})
+          }
+
+        })
+    } catch (error) {
+      console.log(error.message)
+    }
+
 
 
   };
