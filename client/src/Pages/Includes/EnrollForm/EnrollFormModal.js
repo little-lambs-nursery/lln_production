@@ -5,6 +5,8 @@ import closeIcon from "../../../img/icons/closeWhite.png";
 import React, { useState } from "react";
 import Axios from "axios";
 import { BASEURL } from "../../../Constents/Constents";
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const EnrollFormModal = (props) => {
   const [input, setInput] = useState({});
@@ -22,14 +24,6 @@ const EnrollFormModal = (props) => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log("child name:", input.childName);
-    console.log("child age:", input.childAge);
-    console.log("parent name:", input.parentName);
-    console.log("parent number:", input.parentNumber);
-    console.log("email:", input.email);
-    console.log("Program:", program);
-    console.log("Offer:", offer);
-
     await Axios.post(`${BASEURL}api/enrollData`, {
       childName: input.childName,
       childAge: input.childAge,
@@ -38,11 +32,40 @@ const EnrollFormModal = (props) => {
       email: input.email,
       program: program,
       offer: offer
-    });
+    })
+      .then(data => {
+        if (data.data.errorcode == 0) {
+          toast.success(`${data.data.msg}`, {
+            position: "bottom-center",
+            autoClose: 2000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+          });
+          props.onHide()
+        }
+        else {
+          toast.error(`${data.data.msg}`, {
+            position: "bottom-center",
+            autoClose: 2000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+          });
+        }
+
+      })
+
+
   };
 
   return (
     <>
+
       <Modal
         {...props}
         size="lg"
@@ -183,12 +206,12 @@ const EnrollFormModal = (props) => {
               <div className="col-12">
                 <div className="formBtn">
                   {input.childName == undefined ||
-                  input.childAge == undefined ||
-                  input.parentName == undefined ||
-                  input.parentNumber == undefined ||
-                  input.email == undefined ||
-                  program == undefined ||
-                  offer == undefined ? (
+                    input.childAge == undefined ||
+                    input.parentName == undefined ||
+                    input.parentNumber == undefined ||
+                    input.email == undefined ||
+                    program == undefined ||
+                    offer == undefined ? (
                     <button className="w-100 disable">Submit</button>
                   ) : (
                     <button className="w-100">Submit</button>

@@ -6,7 +6,7 @@
 }
 
 body {
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 
 :root {
@@ -21,34 +21,42 @@ body {
   font-family: title;
   src: url(./font/HoboStd.otf);
 }
+
 @font-face {
   font-family: light;
   src: url(./font/Nunito-Light.ttf);
 }
+
 @font-face {
   font-family: regular;
   src: url(./font/Nunito-Regular.ttf);
 }
+
 @font-face {
   font-family: mediumfont;
   src: url(./font/Nunito-Medium.ttf);
 }
+
 @font-face {
   font-family: semibold;
   src: url(./font/Nunito-SemiBold.ttf);
 }
+
 @font-face {
   font-family: boldfont;
   src: url(./font/Nunito-Bold.ttf);
 }
+
 @font-face {
   font-family: extrabold;
   src: url(./font/Nunito-ExtraBold.ttf);
 }
+
 @font-face {
   font-family: enrollBtn;
   src: url(./font/KGTenThousandReasons.ttf);
 }
+
 html {
   scroll-behavior: smooth;
 }
