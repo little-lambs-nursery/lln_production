@@ -57,7 +57,10 @@ export const postContactUs = async (req, res) => {
 
 export const getAllEnquiries = async (req, res) => {
     try {
-        const data = await Enquiry.find({}).sort({ createdAt: -1 })
+        const pageSize = 5
+        const page = Number(req.query.page) || 1;
+
+        const data = await Enquiry.find({}).sort({ createdAt: -1 }).limit(pageSize).skip((page - 1) * pageSize)
         return res.status(200).json({ errorcode: 0, status: false, msg: "Enquiry Data Found", data: data })
     } catch (e) {
         return res.status(200).json({ errorcode: 5, status: false, msg: e.message, data: null });
