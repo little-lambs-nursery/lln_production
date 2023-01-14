@@ -70,16 +70,17 @@ const Enquiry = () => {
     const [render, setRender] = useState(false)
     const [loading, setLoading] = useState(false)
     const [deleteModalShow, setDeleteModalShow] = React.useState(false);
+    const [count, setCount] = useState(1)
 
     useEffect(() => {
 
         if (render) setRender(false)
         getData()
-    }, [render])
+    }, [render, count])
 
     const getData = async () => {
         setLoading(true)
-        const data = await axios.get(`${BASEURL}/api/enquiry`)
+        const data = await axios.get(`${BASEURL}/api/enquiry?page=${count}`)
         setUsers(data.data.data)
         setLoading(false)
     }
@@ -102,6 +103,20 @@ const Enquiry = () => {
         } catch (error) {
             console.log(error.message)
         }
+    }
+
+    const handlePrev = () => {
+        if (count <= 1) {
+
+        }
+        else {
+            setCount(count - 1)
+        }
+    }
+
+
+    const handleNext = () => {
+        setCount(count + 1)
     }
 
     const columns = [
@@ -150,18 +165,17 @@ const Enquiry = () => {
                     myFunction={myFunction}
                     setRender={() => setRender(true)}
                 />
-                <div className="p-5 bg-light rounded-3 ">
+                <div lg={6} >
+                    <h1 className="m-0 p-0 text-center square ">ENQUIRYS</h1>
+                </div>
+                {/* <div className="p-5 bg-light rounded-3 ">
                     <div>
-                        {/* <div lg={3} className='text-center'>
-                        <Link to="/admin" className="btn btn-light my-3">
-                            Go Back
-                        </Link>
-                    </div> */}
+                        
                         <div lg={6} >
                             <h1 className="m-0 p-0 text-center square ">ENQUIRY</h1>
                         </div>
                     </div>
-                </div>
+                </div> */}
                 <div className='pt-5' style={{ zIndex: -1 }}>
                     {/* <Row>
                     <Col>
@@ -178,7 +192,7 @@ const Enquiry = () => {
                             {
                                 actionsColumnIndex: -1,
                                 addRowPosition: "first",
-                                pageSize: 20,
+                                pageSize: 10,
                                 rowStyle: (rowData) => {
                                     return {
                                         // fontFamily: "Mulish-Regular",
@@ -221,7 +235,10 @@ const Enquiry = () => {
                                 },
                             ]}
                     />
-                    {/* // } */}
+                    <div className='d-flex justify-content-end mt-3'>
+                        <Button variant="dark" style={{ marginRight: '10px' }} onClick={handlePrev}>Prev</Button>
+                        <Button variant="dark" onClick={handleNext}>Next</Button>
+                    </div>
                 </div>
             </>
 
