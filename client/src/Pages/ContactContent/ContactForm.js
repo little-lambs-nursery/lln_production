@@ -1,6 +1,8 @@
 import axios from 'axios'
 import { useState } from 'react'
 import { BASEURL } from '../../Constents/Constents'
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 
@@ -22,8 +24,46 @@ const ContactForm = () => {
         e.preventDefault()
         try {
             const { data } = await axios.post(`${BASEURL}api/contact-us`, { values })
-        } catch (error) {
+                .then(data => {
+                    if (data.data.errorcode == 0) {
+                        toast.success(`${data.data.msg}`, {
+                            position: "bottom-center",
+                            autoClose: 2000,
+                            hideProgressBar: false,
+                            closeOnClick: true,
+                            pauseOnHover: true,
+                            draggable: true,
+                            progress: undefined,
+                        });
+                        setValues({
+                            name: "",
+                            email: "",
+                            number: "",
+                            comment: ""
+                        })
 
+                    }
+                    else {
+                        toast.error(`${data.data.msg}`, {
+                            position: "bottom-center",
+                            autoClose: 2000,
+                            hideProgressBar: false,
+                            closeOnClick: true,
+                            pauseOnHover: true,
+                            draggable: true,
+                            progress: undefined,
+                        });
+                        setValues({
+                            name: "",
+                            email: "",
+                            number: "",
+                            comment: ""
+                        })
+                    }
+
+                })
+        } catch (error) {
+            console.log(error.message)
         }
     }
 
@@ -101,7 +141,7 @@ const ContactForm = () => {
                                                         onChange={handleChange}
                                                     >
                                                     </textarea>
-                                                    <label for="floatingTextarea">Comments</label>
+                                                    <label for="floatingTextarea">Type here...</label>
                                                 </div>
                                             </div>
                                         </div>
