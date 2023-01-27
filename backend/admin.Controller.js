@@ -55,6 +55,17 @@ export const postContactUs = async (req, res) => {
     }
 };
 
+export const getContactUs = async (req, res) => {
+    // console.log("req.body",req.body);
+    try {
+        let contactUs = await ContactUs.find({}).sort({ createdAt: -1 })
+        return res.status(200).json({ errorcode: 0, status: true, msg: "Contacted Form Submitted successfully.", data: newEnquiry });
+    } catch (e) {
+        console.log(e);
+        return res.status(200).json({ errorcode: 5, status: false, msg: e.message, data: e });
+    }
+};
+
 export const getAllEnquiries = async (req, res) => {
     try {
         const pageSize = 10

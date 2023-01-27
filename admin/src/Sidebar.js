@@ -19,6 +19,12 @@ const Sidebar = () => {
                         <span className="ml-3">Enquiries</span>
                     </Link>
                 </li>
+                <li class="nav-item mb-2 ml-3">
+                    <Link to='/admin/contact' >
+                        <i class="fas fa-headphones font-weight-bold"></i>
+                        <span className="ml-3">Contact</span>
+                    </Link>
+                </li>
                 {/* <li class="nav-item mb-2">
                     <a class="nav-link text-secondary" href="#submenu1" data-toggle="collapse" data-target="#submenu1">
                         <i class="far fa-file-word font-weight-bold"></i>
