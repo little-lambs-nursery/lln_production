@@ -80,8 +80,9 @@ const Contact = () => {
 
     const getData = async () => {
         setLoading(true)
-        const data = await axios.post(`${BASEURL}/api/contact-us`)
+        const data = await axios.get(`${BASEURL}/api/contact-us`)
         setUsers(data.data.data)
+        console.log("contact data", data.data)
         setLoading(false)
     }
 
