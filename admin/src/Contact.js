@@ -82,7 +82,7 @@ const Contact = () => {
         setLoading(true)
         const data = await axios.get(`${BASEURL}/api/contact-us`)
         setUsers(data.data.data)
-        console.log("contact data", data.data)
+        console.log("contact data", data.data.data)
         setLoading(false)
     }
 
@@ -121,15 +121,10 @@ const Contact = () => {
     }
 
     const columns = [
-        { title: "Child_Name", field: "childName", },
-        { title: "Child_Age", field: "childAge", },
-        { title: "Parent_Name", field: "parentName" },
-        { title: "Parent_Number", field: "parentNumber" },
+        { title: "Name", field: "name", },
         { title: "Email", field: "email" },
-        { title: "Program", field: "program" },
-        { title: "Offer", field: "offer" },
-        { title: "Status", field: "status" },
-        { title: "Message", field: "message" }
+        { title: "Phone Number", field: "phoneNo" },
+        { title: "Message", field: "comment" },
     ]
 
     const handleExport = () => {
@@ -189,57 +184,42 @@ const Contact = () => {
                         data={users}
                         columns={columns}
                         icons={tableIcons}
-                        options={
-                            {
-                                actionsColumnIndex: -1,
-                                addRowPosition: "first",
-                                pageSize: 10,
-                                rowStyle: (rowData) => {
-                                    return {
-                                        // fontFamily: "Mulish-Regular",
-                                        fontColor: "white",
-                                        backgroundColor: rowData.status === "enquired" ? "#f5d0d0" : rowData.status === "onProcessing" ? "#d0def5" : "#d0f5d7",
-                                    }
-                                },
-                            }
-                        }
-                        // editable={{
-                        //   onRowDelete: (oldData) => new Promise((resolve, reject) => {
-                        //     console.log(oldData)
-                        //     //Backend call
-                        //     axios.delete(`/api/users/${oldData._id}`)
-                        //       .then(resp => {
-                        //         getData()
-                        //         resolve()
-                        //       })
-                        //   })
-                        // }}
-                        actions={
-                            [
-                                {
-                                    icon: EditIcon,
-                                    tooltip: 'Edit User',
-                                    onClick: (event, rowData) => {
+                        options={{ actionsColumnIndex: -1, addRowPosition: "first", pageSize: 10 }}
+                    // editable={{
+                    //   onRowDelete: (oldData) => new Promise((resolve, reject) => {
+                    //     console.log(oldData)
+                    //     //Backend call
+                    //     axios.delete(`/api/users/${oldData._id}`)
+                    //       .then(resp => {
+                    //         getData()
+                    //         resolve()
+                    //       })
+                    //   })
+                    // }}
+                    // actions={
+                    //     [
+                    //         {
+                    //             icon: EditIcon,
+                    //             tooltip: 'Edit User',
+                    //             onClick: (event, rowData) => {
 
-                                        // Do save operation
-                                        handleEdit(event, rowData)
-                                    }
-                                },
-                                {
-                                    icon: DeleteOutline,
-                                    tooltip: 'Delete User',
-                                    onClick: (event, rowData) => {
+                    //                 handleEdit(event, rowData)
+                    //             }
+                    //         },
+                    //         {
+                    //             icon: DeleteOutline,
+                    //             tooltip: 'Delete User',
+                    //             onClick: (event, rowData) => {
 
-                                        // Do save operation
-                                        handleDelete(event, rowData._id)
-                                    }
-                                },
-                            ]}
+                    //                 handleDelete(event, rowData._id)
+                    //             }
+                    //         },
+                    //     ]}
                     />
-                    <div className='d-flex justify-content-end mt-3'>
+                    {/* <div className='d-flex justify-content-end mt-3'>
                         <Button variant="dark" style={{ marginRight: '10px' }} onClick={handlePrev}>Prev</Button>
                         <Button variant="dark" onClick={handleNext}>Next</Button>
-                    </div>
+                    </div> */}
                 </div>
             </>
 
