@@ -66,6 +66,18 @@ export const getContactUs = async (req, res) => {
     }
 };
 
+export const deleteContactUs = async (req, res) => {
+    try {
+        let { id } = req.body
+        let contact = await ContactUs.findById(id)
+        if (!contact) return res.status(200).json({ errorcode: 1, status: false, msg: "Contact Not Found", data: contact })
+        await ContactUs.deleteOne({ _id: id })
+        return res.status(200).json({ errorcode: 0, status: true, msg: "Contact Deleted Successfully", data: null })
+    } catch (e) {
+        return res.status(200).json({ errorcode: 5, status: false, msg: e.message, data: null });
+    }
+}
+
 export const getAllEnquiries = async (req, res) => {
     try {
         const pageSize = 10

@@ -26,6 +26,8 @@ import {
     ViewColumn,
 } from '@material-ui/icons'
 import { AdminState } from './Context';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 // import { BASEURL } from '../../constants'    
 // import { CartState } from '../../Context'
 // import Loader from '../../Components/Loader'
@@ -97,7 +99,17 @@ const Contact = () => {
     }
     const myFunction = async () => {
         try {
-            await axios.post(`${BASEURL}/api/delete-enquiry`, { id: selected })
+            await axios.post(`${BASEURL}/api/delete-contact-us`, { id: selected })
+            toast.error('Delete Successfully', {
+                position: "bottom-center",
+                autoClose: 3000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+                theme: "colored",
+            });
             setRender(true)
             setDeleteModalShow(false)
 
@@ -106,19 +118,7 @@ const Contact = () => {
         }
     }
 
-    const handlePrev = () => {
-        if (count <= 1) {
 
-        }
-        else {
-            setCount(count - 1)
-        }
-    }
-
-
-    const handleNext = () => {
-        setCount(count + 1)
-    }
 
     const columns = [
         { title: "Name", field: "name", },
@@ -148,6 +148,7 @@ const Contact = () => {
     return (
         <div class="col main pt-5 mt-1" style={{ height: "98vh" }}>
             <>
+                <ToastContainer />
                 <EnquiryModal
                     show={modalShow}
                     onHide={() => setModalShow(false)}
@@ -162,7 +163,7 @@ const Contact = () => {
                     setRender={() => setRender(true)}
                 />
                 <div lg={6} >
-                    <h1 className="m-0 p-0 text-center square ">ENQUIRYS</h1>
+                    <h1 className="m-0 p-0 text-center square ">Contact Form Data</h1>
                 </div>
                 {/* <div className="p-5 bg-light rounded-3 ">
                     <div>
@@ -185,36 +186,36 @@ const Contact = () => {
                         columns={columns}
                         icons={tableIcons}
                         options={{ actionsColumnIndex: -1, addRowPosition: "first", pageSize: 10 }}
-                    // editable={{
-                    //   onRowDelete: (oldData) => new Promise((resolve, reject) => {
-                    //     console.log(oldData)
-                    //     //Backend call
-                    //     axios.delete(`/api/users/${oldData._id}`)
-                    //       .then(resp => {
-                    //         getData()
-                    //         resolve()
-                    //       })
-                    //   })
-                    // }}
-                    // actions={
-                    //     [
-                    //         {
-                    //             icon: EditIcon,
-                    //             tooltip: 'Edit User',
-                    //             onClick: (event, rowData) => {
+                        // editable={{
+                        //   onRowDelete: (oldData) => new Promise((resolve, reject) => {
+                        //     console.log(oldData)
+                        //     //Backend call
+                        //     axios.delete(`/api/users/${oldData._id}`)
+                        //       .then(resp => {
+                        //         getData()
+                        //         resolve()
+                        //       })
+                        //   })
+                        // }}
+                        actions={
+                            [
+                                // {
+                                //     icon: EditIcon,
+                                //     tooltip: 'Edit User',
+                                //     onClick: (event, rowData) => {
 
-                    //                 handleEdit(event, rowData)
-                    //             }
-                    //         },
-                    //         {
-                    //             icon: DeleteOutline,
-                    //             tooltip: 'Delete User',
-                    //             onClick: (event, rowData) => {
+                                //         handleEdit(event, rowData)
+                                //     }
+                                // },
+                                {
+                                    icon: DeleteOutline,
+                                    tooltip: 'Delete User',
+                                    onClick: (event, rowData) => {
 
-                    //                 handleDelete(event, rowData._id)
-                    //             }
-                    //         },
-                    //     ]}
+                                        handleDelete(event, rowData._id)
+                                    }
+                                },
+                            ]}
                     />
                     {/* <div className='d-flex justify-content-end mt-3'>
                         <Button variant="dark" style={{ marginRight: '10px' }} onClick={handlePrev}>Prev</Button>

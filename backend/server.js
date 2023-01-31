@@ -3,7 +3,7 @@ import mongoose from "mongoose"
 import cors from 'cors'
 import dotenv from 'dotenv'
 import path from 'path'
-import { adminSignIn, postEnquiry, getAllEnquiries, updateEnquiry, postContactUs, deleteEnquiry, getContactUs } from './admin.Controller.js'
+import { adminSignIn, postEnquiry, getAllEnquiries, updateEnquiry, postContactUs, deleteEnquiry, getContactUs, deleteContactUs } from './admin.Controller.js'
 
 
 const app = express()
@@ -24,6 +24,7 @@ app.post('/api/admin/login', adminSignIn)
 app.post('/api/enrollData', postEnquiry)
 app.post('/api/contact-us', postContactUs)
 app.get('/api/contact-us', getContactUs)
+app.post('/api/delete-contact-us', deleteContactUs)
 app.get('/api/enquiry', getAllEnquiries)
 app.post('/api/update-enquiry', updateEnquiry)
 
