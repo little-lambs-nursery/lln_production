@@ -10,7 +10,7 @@ const FounderWord = () => {
                             <div className="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
                                 <div className="founderWords">
                                     <h4>Founder’s Words</h4>
-                                    <p>We are very proud to welcome you to Little Lambs Nursery, Dubai, a British curriculum nursery (EYFS), located in the heart of Mankool.  As mothers, we truly understand that every parent is looking out for the best opportunities for their child/children. We at Little Lambs Nursery promises to provide a learning adventure combined with enjoyment and entertainment along with a secure learning environment for your little ones. Before you begin your journey with us, allow us to answer a few queries that may come to your mind.</p>
+                                    <p>We are very proud to welcome you to Little Lambs Nursery, Dubai, a British curriculum nursery (EYFS), located in the heart of Mankool.  As parents, we truly understand that every parent is looking out for the best opportunities for their child/children. We at Little Lambs Nursery promises to provide a learning adventure combined with enjoyment and entertainment along with a secure learning environment for your little ones. Before you begin your journey with us, allow us to answer a few queries that may come to your mind.</p>
                                 </div>
                             </div>
                         </div>
