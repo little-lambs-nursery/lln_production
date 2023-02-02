@@ -6,6 +6,7 @@ import instagram from '../../../img/icons/footerInstagram.webp'
 import twitter from '../../../img/icons/footerTwitter.webp'
 import youtube from '../../../img/icons/footerYoutube.webp'
 import linkedin from '../../../img/icons/footerLinkedin.webp'
+import Pinterest from '../../../img/icons/Pinterest.png'
 import React, { useState } from 'react'
 import EnrollFormModal from '../EnrollForm/EnrollFormModal'
 
@@ -129,13 +130,18 @@ const Footer = () => {
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="">
+                                            <a href="https://www.youtube.com/@littlelambsnurseryuae" target="_blank">
                                                 <img src={youtube} alt="youtube" className='img-fluid' />
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="">
+                                            <a href="" target="_blank">
                                                 <img src={twitter} alt="twitter" className='img-fluid' />
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://in.pinterest.com/littlelambsnurserydubai/" target="_blank">
+                                                <img src={Pinterest} alt="Pinterest" className='img-fluid' />
                                             </a>
                                         </li>
                                     </ul>
