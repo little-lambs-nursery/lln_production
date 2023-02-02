@@ -135,7 +135,7 @@ const Footer = () => {
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="" target="_blank">
+                                            <a href="https://twitter.com/nursery_lambs" target="_blank">
                                                 <img src={twitter} alt="twitter" className='img-fluid' />
                                             </a>
                                         </li>
