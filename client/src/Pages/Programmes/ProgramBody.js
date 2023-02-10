@@ -41,17 +41,16 @@ const ProgramBody = () => {
                                             <p>Decide which words
                                                 you are going to use
                                                 for the child’s body
-                                                fluids (discuss with the
-                                                teacher)</p>
+                                                fluids </p>
                                         </div>
                                     </div>
                                 </div>
                                 <div className='programBodyContent pink'>
-                                    <h4>Child Anxiety Multi-day program</h4>
+                                    <h4>Child Anxiety Multi-day program (CAMP)</h4>
                                     <p>Separation anxiety is seen in very young children from 18 months to 3 years. The signs of separation anxiety can be seen in an infant even as early as 4-5months. However, this is when it is considered as the baby being securely attached to the parent and it means that the baby has formed a strong bond with the parent. It is a normal part of growing up. Young children cry and are clingy when the caregivers/parents leave. Babies and toddlers grow out of this distress as they grow. However, there are ways to reduce the distress and CAMP is a graduated approach to dealing with the signs/symptoms of separation anxiety</p>
                                 </div>
                                 <div className='programBodyContent blue'>
-                                    <h4>Picky Eating Program</h4>
+                                    <h4>Picky Eating Program (PEP)</h4>
                                     <p>Picky eating is just in simple terms a battle over food. Sometimes it is just a response to controlling or pushy parents or to bribery. PEP will focus on supporting healthy eating habits by increasing the number of foods in the child’s repertoire. The final goal of the program is food acceptance; hence the entire program’s approach is based on positive reinforcement by all the key instructors of the program. To support the program parents are advised to consult the class teacher and hand over the below list-</p>
                                 </div>
                                 <div className='programBodyCircleCardBox'>
@@ -78,7 +77,7 @@ const ProgramBody = () => {
                                     </ul>
                                 </div>
                                 <div className='programBodyContent pink'>
-                                    <h4>Smart Juniorz Program</h4>
+                                    <h4>Smart Juniorz Program (SJP)</h4>
                                     <p>This is a one-to-one teaching that takes place between a single child and one teacher. Rather than being in a group, one-to-one teaching provides more interaction and fewer distractions. This program can be availed either after 3.30pm regularly or during camp breaks. The program is organised to focus more on pre-reading to reading stages; pre-writing to writing stages; pre-mathematics to mathematical concepts and phonic stages. This is the best program for our little ones who need a little more comfort, guidance, love and support or who are planning to take the next step of being in a formal school</p>
                                 </div>
                                 <div className='programBodyContent blue'>
@@ -86,7 +85,7 @@ const ProgramBody = () => {
                                     <p>IT/STEM is for all nursery children based on their age and development. However, children above 2 years will have a systematic curriculum-based program for their success in the field of science, technology, engineering and mathematics. Our young minds will learn to make predictions and test the theories around the world. The program makes science more fun; children will learn the basic skills to use computers; engineering principles covered through Lego and building; mathematical skills through technology and fun.</p>
                                 </div>
                                 <div className='programBodyContent pink'>
-                                    <h4>Academic Enrichment Program</h4>
+                                    <h4>Academic Enrichment Program (AEP)</h4>
                                     <p>AEP will help to break the barriers of curricular structures and allow children to create, design and learn without limits. It will help the child to discover new hobbies/interests outside the classroom setting. Below is the list of various AEPs in LLN, however, this is not the end as more and more will be added every time-</p>
                                 </div>
                                 <div className='porgramCategoryCardBox'>
@@ -131,7 +130,7 @@ const ProgramBody = () => {
                                     </ul>
                                 </div>
                                 <div className='programBodyContent blue'>
-                                    <h4>Communication & Language Program</h4>
+                                    <h4>Communication & Language Program (CLP)</h4>
                                     <p>Communication in preschoolers not only depends on language but also on facial expressions, gestures and behaviours. Hence, there are three aspects in the CLP- </p>
                                 </div>
                                 <div className='progremHexagonShapeBox'>
@@ -154,9 +153,9 @@ const ProgramBody = () => {
                                         </li>
                                     </ul>
                                 </div>
-                                
+
                                 <div className='programBodyContent pink'>
-                                    <h4>Social Studies Education Program</h4>
+                                    <h4>Social Studies Education Program (SSEP)</h4>
                                     <p>SSEP will focus on the study of people and the ways they relate to others. The program will include</p>
                                 </div>
                                 <div className='SSEPCardBox'>

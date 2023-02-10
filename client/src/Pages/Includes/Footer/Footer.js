@@ -50,7 +50,7 @@ const Footer = () => {
                                     <h4>PROGRAMMES</h4>
                                     <ul>
                                         <li>
-                                            <Link to="/programmes">Pre School</Link>
+                                            <Link to="/programmes">Infants</Link>
                                         </li>
                                         <li>
                                             <Link to="/programmes">Nursery</Link>

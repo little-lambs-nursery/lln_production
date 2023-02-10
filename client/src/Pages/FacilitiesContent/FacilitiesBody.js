@@ -15,6 +15,7 @@ const FacilitiesBody = () => {
                             <div className="col-lg-9">
                                 <div className="differenceBodyCard">
                                     <ul>
+                                        <li>Huge outdoor play area</li>
                                         <li>Indoor gym facility </li>
                                         <li>Taking Care of age Groups</li>
                                         <dd>Babies- 45 days to 1 year</dd>

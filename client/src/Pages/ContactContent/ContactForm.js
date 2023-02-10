@@ -3,6 +3,7 @@ import { useState } from 'react'
 import { BASEURL } from '../../Constents/Constents'
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { useNavigate } from 'react-router-dom';
 
 
 
@@ -13,6 +14,7 @@ const ContactForm = () => {
         number: "",
         comment: ""
     })
+    const navigate = useNavigate()
 
     const handleChange = (e) => {
         setValues({ ...values, [e.target.name]: e.target.value })
@@ -41,6 +43,7 @@ const ContactForm = () => {
                             number: "",
                             comment: ""
                         })
+                        navigate('/contact-us/Thank-You')
 
                     }
                     else {

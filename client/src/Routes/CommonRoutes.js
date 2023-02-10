@@ -12,6 +12,8 @@ import PrivacyPolicy from "../Pages/PrivacyPolicy"
 import Programmes from "../Pages/Programmes"
 import ScrollToTop from "../Pages/ScrollToTop"
 import TermsCondition from "../Pages/TermsCondition"
+import ContactThankyou from "../Pages/ThankYouPage/ContactThankyou"
+import EnrollThankyou from "../Pages/ThankYouPage/EnrollThankyou"
 
 const CommonRoutes = () => {
     return (
@@ -30,6 +32,8 @@ const CommonRoutes = () => {
                     <Route path="/programmes" element={<Programmes />} />
                     <Route path="/term-and-conditions" element={<TermsCondition />} />
                     <Route path="/privacy-and-policy" element={<PrivacyPolicy />} />
+                    <Route path="/Thank-You" element={<EnrollThankyou />} />
+                    <Route path="/contact-us/Thank-You" element={<ContactThankyou />} />
                 </Routes>
             </ScrollToTop>
         </>

@@ -7,11 +7,13 @@ import Axios from "axios";
 import { BASEURL } from "../../../Constents/Constents";
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { useNavigate } from "react-router-dom";
 
 const EnrollFormModal = (props) => {
   const [input, setInput] = useState({});
   const [program, setProgram] = useState();
   const [offer, setOffer] = useState();
+  const navigate = useNavigate()
 
   const handleChange = (e) => {
     const name = e.target.name;
@@ -36,7 +38,7 @@ const EnrollFormModal = (props) => {
       })
         .then(data => {
           if (data.data.errorcode == 0) {
-            toast.success(`${data.data.msg}`, {
+            toast.success(`Your Submission Has Been Received`, {
               position: "bottom-center",
               autoClose: 2000,
               hideProgressBar: false,
@@ -47,7 +49,7 @@ const EnrollFormModal = (props) => {
             });
             setInput({})
             props.onHide()
-
+            navigate('/Thank-You')
           }
           else {
             toast.error(`${data.data.msg}`, {
@@ -184,7 +186,7 @@ const EnrollFormModal = (props) => {
                     }}
                   >
                     <option selected>Select Program</option>
-                    <option value="Pre School">Pre School</option>
+                    <option value="Infants">Infants</option>
                     <option value="Nursery">Nursery</option>
                     <option value="Foudation Stages">Foudation Stages</option>
                     <option value="Smart Juniors">Smart Juniors</option>
