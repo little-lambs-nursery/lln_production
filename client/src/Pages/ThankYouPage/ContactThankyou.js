@@ -5,10 +5,29 @@ import Navigation from '../Includes/Navigation/Navigation'
 import WhatsAppChat from '../WhatsAppChat'
 import contactThankyou from '../../img/icons/contactThankyou.png'
 import './Thankyou.css'
+import { Helmet } from "react-helmet";
+
 
 const ContactThankyou = () => {
     return (
         <>
+            <Helmet>
+                <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11084316064" />
+                <script>
+                    {`
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments)}
+                    gtag('js', new Date());
+
+                    gtag('config', 'AW-11084316064');
+                    `}
+                </script>
+                <script>
+                    {`gtag('event', 'conversion', {'send_to': 'AW-11084316064/FZQsCOOSxosYEKD7tKUp'});`}
+                </script>
+
+
+            </Helmet>
             <WhatsAppChat />
             <Navigation />
             <MobileNavigation />
