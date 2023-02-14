@@ -66,6 +66,9 @@ const MobileNavigation = () => {
                             <Link to="/contact-us">
                                 <li>contact us</li>
                             </Link>
+                            <a href="https://www.blog.nurserylittlelambs.com/" target="_blank">
+                                <li>Blog</li>
+                            </a>
                         </ul>
                         <h4>Visit Us Daily:</h4>
                         <p>Villa no 22,

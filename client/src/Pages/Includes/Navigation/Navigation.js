@@ -32,12 +32,12 @@ const Navigation = () => {
                             <div className="col-lg-3">
                                 <div className='logo'>
                                     <Link to="/">
-                                    <img src={logo} alt="logo" className='img-fluid' />
+                                        <img src={logo} alt="logo" className='img-fluid' />
                                     </Link>
                                 </div>
                             </div>
                             <div className="col-lg-6">
-                                <div className='headerContactList'> 
+                                <div className='headerContactList'>
                                     <ul>
                                         <li>
                                             <img src={mail} alt="mail" className="img-fluid" />  <a href="mailto:info@nurserylittlelambs.com">info@nurserylittlelambs.com</a>
@@ -50,7 +50,7 @@ const Navigation = () => {
                             </div>
                             <div className="col-lg-3">
                                 <div className='headerButton'>
-                                    <button  onClick={() => setModalShow(true)}>Enroll your child </button>
+                                    <button onClick={() => setModalShow(true)}>Enroll your child </button>
                                 </div>
                             </div>
                         </div>
@@ -84,6 +84,9 @@ const Navigation = () => {
                                         </li>
                                         <li>
                                             <Link to="/contact-us">CONTACT</Link>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.blog.nurserylittlelambs.com/" target="_blank">Blog</a>
                                         </li>
                                     </uL>
                                 </div>

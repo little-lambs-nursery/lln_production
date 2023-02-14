@@ -80,6 +80,9 @@ const Footer = () => {
                                         <li>
                                             <Link to="/privacy-and-policy">Privacy & Policy</Link>
                                         </li>
+                                        <li>
+                                            <a href="https://www.blog.nurserylittlelambs.com/" target="_blank">Blog</a>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
