@@ -4,11 +4,15 @@ import Header from './CurriculamContent/Header'
 import CurriculumBody from './CurriculamContent/CurriculumBody'
 import MobileNavigation from './Includes/MobileNavigation/MobileNavigation'
 import WhatsAppChat from './WhatsAppChat'
+import { Helmet } from 'react-helmet'
 
 
 const Curriculum = () => {
-    return(
+    return (
         <>
+            <Helmet>
+
+            </Helmet>
             <WhatsAppChat />
             <Navigation />
             <MobileNavigation />

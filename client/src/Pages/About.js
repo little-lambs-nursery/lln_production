@@ -6,10 +6,15 @@ import FounderWord from './AboutContent/FounderWord'
 import MyChild from './AboutContent/MyChild'
 import Founder from './AboutContent/Founder'
 import WhatsAppChat from './WhatsAppChat'
+import { Helmet } from 'react-helmet'
 
 const About = (props) => {
-    return(
+
+    return (
         <>
+            <Helmet>
+
+            </Helmet>
             <WhatsAppChat />
             <Navigation />
             <MobileNavigation />

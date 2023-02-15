@@ -4,10 +4,14 @@ import Header from './ContactContent/Header'
 import ContactForm from './ContactContent/ContactForm'
 import MobileNavigation from './Includes/MobileNavigation/MobileNavigation'
 import WhatsAppChat from './WhatsAppChat'
+import { Helmet } from 'react-helmet'
 
 const Contact = () => {
-    return(
+    return (
         <>
+            <Helmet>
+
+            </Helmet>
             <WhatsAppChat />
             <Navigation />
             <MobileNavigation />
