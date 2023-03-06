@@ -20,7 +20,7 @@ const WhyLL = () => {
                             <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div className="whyLLCard">
                                     <div className="whyLLCardIcon one">
-                                        <img src={healthy_environment} alt="healthy_environment" className="img-fluid" />
+                                        <img src={healthy_environment} alt="healthy_environment icon" className="img-fluid" />
                                     </div>
                                     <div className="whyLLCardContent">
                                         <h4>Healthy Learning <br />Environment</h4>

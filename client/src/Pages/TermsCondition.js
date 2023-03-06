@@ -10,7 +10,9 @@ const TermsCondition = () => {
     return (
         <>
             <Helmet>
-
+                <title>Little Lambs Nursery | Terms & Conditions </title>
+                <meta name="description" content="Little Lamb Nursery uses comprehensible terms and conditions for users visiting their website. Visit our page to learn further about our agreement in detail!" />
+                <link rel="canonical" href="https://www.nurserylittlelambs.com/term-and-conditions" />
             </Helmet>
             <WhatsAppChat />
             <Navigation />

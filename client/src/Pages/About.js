@@ -13,7 +13,9 @@ const About = (props) => {
     return (
         <>
             <Helmet>
-
+                <title>Little Lambs Nursery | About Us </title>
+                <meta name="description" content="We at Little Lambs Nursery LLC provide the best quality curriculum for children with multiple innovative programs. Contact now to learn more about us." />
+                <link rel="canonical" href="https://www.nurserylittlelambs.com/about-us" />
             </Helmet>
             <WhatsAppChat />
             <Navigation />

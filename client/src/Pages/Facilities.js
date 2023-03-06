@@ -10,6 +10,9 @@ const Facilities = () => {
     return (
         <>
             <Helmet>
+                <title>Little Lambs Nursery | Facilities </title>
+                <meta name="description" content="At Little Lambs Nursery LLC, we have all the facilities a nursery would need. Your child will have access to all facilities to enhance the overall growth of your child." />
+                <link rel="canonical" href="https://www.nurserylittlelambs.com/facilities" />
 
             </Helmet>
             <WhatsAppChat />

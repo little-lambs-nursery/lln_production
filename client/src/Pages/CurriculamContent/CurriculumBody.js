@@ -59,7 +59,7 @@ const CurriculumBody = () => {
                                     </div>
 
                                     <div className="currculumPageImg">
-                                        <img src={pd} alt="pd" className="img-fluid" />
+                                        <img src={pd} alt="PD" className="img-fluid" />
                                         <h4 className="curriculumTitle pink"> Physical Development</h4>
                                         <p>Little Lambs Nursery will provide opportunities to develop both gross and fine motor skills with the help of activities like writing and cutting, and movement of children so that they explore the world around them through handling objects. Children will be encouraged to follow healthy eating and lead an active lifestyle. Little Lambs Nursery will provide regular physical activity in the setting; promote healthy development, growth, composition, and cardiovascular fitness. Children will be taught to control and manage their body movements, finally leading to improved brain development, such as critical thinking skills and concentration. Activities to promote gross motor skills include participation in the garden & road track area, where they are running; jumping; hopping; skipping; riding tricycles; throwing & catching balls & bean bags and watering plants. More opportunities to have gym sessions and other extra-curricular activities like karate, football etc., will be provided. Fine motor skills are encouraged using various resources, including play-dough; paint; crayons; scissors; beads & puzzles; lacing activities; cutting & sticking; tracing and scribbling.</p>
                                     </div>
@@ -112,7 +112,7 @@ const CurriculumBody = () => {
                                     </div>
 
                                     <div className="currculumPageImg">
-                                        <img src={last} alt="last" className="img-fluid" />
+                                        <img src={last} alt="Communication" className="img-fluid" />
                                     </div>
                                 </div>
                             </div>

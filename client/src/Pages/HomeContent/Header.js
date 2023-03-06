@@ -76,30 +76,30 @@ const Header = () => {
                                     className="mySwiper"
                                 >
                                     <SwiperSlide>
-                                        <img src={slider1} alt="slider1" className="img-fluid" />
+                                        <img src={slider1} alt="Child" className="img-fluid" />
                                     </SwiperSlide>
                                     <SwiperSlide>
-                                        <img src={slider2} alt="slider1" className="img-fluid" />
+                                        <img src={slider2} alt="Child" className="img-fluid" />
                                     </SwiperSlide>
                                     <SwiperSlide>
-                                        <img src={slider3} alt="slider1" className="img-fluid" />
+                                        <img src={slider3} alt="Child" className="img-fluid" />
                                     </SwiperSlide>
                                 </Swiper>
                             </div>
                         </div>
                     </div>
                     <div className='homeHeaderOverlay'>
-                    <div className='container'>
-                        <div className='row'>
-                            <div className='col-lg-12'>
-                                <div className='homeHeaderTagLine'>
-                                    <h1>Love to Learn at Little Lambs</h1>
-                                    <h2><span className='loving'>Loving</span>, <span className='learning'>Learning</span>, <span className='nurturing'>Nurturing</span></h2>
+                        <div className='container'>
+                            <div className='row'>
+                                <div className='col-lg-12'>
+                                    <div className='homeHeaderTagLine'>
+                                        <h1>Love to Learn at Little Lambs</h1>
+                                        <h2><span className='loving'>Loving</span>, <span className='learning'>Learning</span>, <span className='nurturing'>Nurturing</span></h2>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
                     {/* <div className='container headerFormContent'>
                         <div className='row'>
                             <div className='col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12'></div>
@@ -250,7 +250,7 @@ const Header = () => {
                         </div>
                     </div> */}
                 </div>
-                
+
             </section>
         </>
     )

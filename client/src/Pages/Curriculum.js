@@ -11,6 +11,9 @@ const Curriculum = () => {
     return (
         <>
             <Helmet>
+                <title>Little Lambs Nursery | Curriculum </title>
+                <meta name="description" content="We follow the Early years foundation stage curriculum to support the learning & development of children from 45 days to 5 years. Enrol your child now!" />
+                <link rel="canonical" href="https://www.nurserylittlelambs.com/curriculum" />
 
             </Helmet>
             <WhatsAppChat />

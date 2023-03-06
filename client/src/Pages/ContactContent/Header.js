@@ -12,7 +12,7 @@ const Header = () => {
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="title aboutTitle">
-                                    <h2>Contact</h2>
+                                    <h1>Contact</h1>
                                 </div>
                             </div>
                         </div>
@@ -34,7 +34,7 @@ const Header = () => {
                             <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
                                 <div className="contactWays">
                                     <div className="contactWaysIcon">
-                                        <img src={call} alt="call" className='img-fluid' />
+                                        <img src={call} alt="Call" className='img-fluid' />
                                     </div>
                                     <div className="contactWaysContent">
                                         <h4>Call Us:</h4>

@@ -10,7 +10,9 @@ const Difference = () => {
     return (
         <>
             <Helmet>
-
+                <title>Little Lambs Nursery | LLN The Difference </title>
+                <meta name="description" content="We provide top-class training, healthy environment & classroom, personalised growth & learning opportunities for children. Enroll your child at our nursery now!" />
+                <link rel="canonical" href="https://www.nurserylittlelambs.com/LLN-the-difference" />
             </Helmet>
             <WhatsAppChat />
             <Navigation />

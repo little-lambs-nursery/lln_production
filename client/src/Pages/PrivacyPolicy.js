@@ -11,7 +11,9 @@ const PrivacyPolicy = () => {
     return (
         <>
             <Helmet>
-
+                <title>Little Lambs Nursery | Privacy & Policy </title>
+                <meta name="description" content="We use privacy policies and cookies to give users the best experience while protecting their personal information. Read our policies to learn further." />
+                <link rel="canonical" href="https://www.nurserylittlelambs.com/privacy-and-policy" />
             </Helmet>
             <WhatsAppChat />
             <Navigation />

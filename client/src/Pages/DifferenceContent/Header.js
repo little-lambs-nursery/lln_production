@@ -15,7 +15,7 @@ const Header = () => {
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="title aboutTitle">
-                                    <h2>THE DIFFERENCE</h2>
+                                    <h1>THE DIFFERENCE</h1>
                                     <p>WHY CHOOSE Little Lambs Nursery</p>
                                 </div>
                             </div>

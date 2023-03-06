@@ -22,7 +22,7 @@ const Header = () => {
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="title aboutTitle">
-                                    <h2>Curriculum</h2>
+                                    <h1>Curriculum</h1>
                                 </div>
                             </div>
                         </div>
@@ -61,55 +61,55 @@ const Header = () => {
                         >
                             <SwiperSlide>
                                 <div className="curriculumHeaderSliderImg">
-                                    <img src={curriculumHeaderSlider1} alt="curriculumHeaderSlider1" className="img-fluid" />
+                                    <img src={curriculumHeaderSlider1} alt="PSED" className="img-fluid" />
                                 </div>
                             </SwiperSlide>
 
                             <SwiperSlide>
                                 <div className="curriculumHeaderSliderImg">
-                                    <img src={curriculumHeaderSlider2} alt="curriculumHeaderSlider2" className="img-fluid" />
+                                    <img src={curriculumHeaderSlider2} alt="Communication and Language" className="img-fluid" />
                                 </div>
                             </SwiperSlide>
 
                             <SwiperSlide>
                                 <div className="curriculumHeaderSliderImg">
-                                    <img src={curriculumHeaderSlider3} alt="curriculumHeaderSlider3" className="img-fluid" />
+                                    <img src={curriculumHeaderSlider3} alt="Physical Development" className="img-fluid" />
                                 </div>
                             </SwiperSlide>
 
                             <SwiperSlide>
                                 <div className="curriculumHeaderSliderImg">
-                                    <img src={curriculumHeaderSlider4} alt="curriculumHeaderSlider4" className="img-fluid" />
+                                    <img src={curriculumHeaderSlider4} alt="Literacy" className="img-fluid" />
                                 </div>
                             </SwiperSlide>
 
                             <SwiperSlide>
                                 <div className="curriculumHeaderSliderImg">
-                                    <img src={curriculumHeaderSlider5} alt="curriculumHeaderSlider5" className="img-fluid" />
+                                    <img src={curriculumHeaderSlider5} alt="Mathematics" className="img-fluid" />
                                 </div>
                             </SwiperSlide>
 
                             <SwiperSlide>
                                 <div className="curriculumHeaderSliderImg">
-                                    <img src={curriculumHeaderSlider6} alt="curriculumHeaderSlider6" className="img-fluid" />
+                                    <img src={curriculumHeaderSlider6} alt="UTW" className="img-fluid" />
                                 </div>
                             </SwiperSlide>
 
                             <SwiperSlide>
                                 <div className="curriculumHeaderSliderImg">
-                                    <img src={curriculumHeaderSlider7} alt="curriculumHeaderSlider7" className="img-fluid" />
+                                    <img src={curriculumHeaderSlider7} alt="EAD" className="img-fluid" />
                                 </div>
                             </SwiperSlide>
 
                             <SwiperSlide>
                                 <div className="curriculumHeaderSliderImg">
-                                    <img src={curriculumHeaderSlider8} alt="curriculumHeaderSlider8" className="img-fluid" />
+                                    <img src={curriculumHeaderSlider8} alt="Social Studies" className="img-fluid" />
                                 </div>
                             </SwiperSlide>
 
                             <SwiperSlide>
                                 <div className="curriculumHeaderSliderImg">
-                                    <img src={curriculumHeaderSlider9} alt="curriculumHeaderSlider9" className="img-fluid" />
+                                    <img src={curriculumHeaderSlider9} alt="Information Technology" className="img-fluid" />
                                 </div>
                             </SwiperSlide>
                         </Swiper>

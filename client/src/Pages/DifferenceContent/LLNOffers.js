@@ -4,7 +4,7 @@ import img3 from '../../img/difference/3.webp'
 import arrow from '../../img/icons/Arrow.png'
 import arrowBig from '../../img/icons/ArrowBig.png'
 import EnrollFormModal from '../Includes/EnrollForm/EnrollFormModal'
-import React, {useState} from "react"
+import React, { useState } from "react"
 
 const LLNOffers = () => {
     const [modalShow, setModalShow] = useState(false);
@@ -19,8 +19,8 @@ const LLNOffers = () => {
                     <div className="container">
                         <div className="row d-flex justify-content-center">
                             <div className="col-lg-9">
-                                <div className="LLNOfferTitle">
-                                    <h2>LLN- offers</h2>
+                                <div className="LLNOfferTitle title aboutTitle">
+                                    <h1>LLN- offers</h1>
                                     <p>Flexible Plans</p>
                                 </div>
                             </div>
@@ -42,7 +42,7 @@ const LLNOffers = () => {
                                                 <li><span>5% </span> DISCOUNT</li>
                                                 <li>Termly payment </li>
                                             </ul>
-                                            <button  onClick={() => setModalShow(true)}>CHOOSE PLAN <img src={arrow} alt="arrow" className='img-fluid' /></button>
+                                            <button onClick={() => setModalShow(true)}>CHOOSE PLAN <img src={arrow} alt="arrow" className='img-fluid' /></button>
                                         </div>
                                     </div>
 

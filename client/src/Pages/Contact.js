@@ -10,7 +10,9 @@ const Contact = () => {
     return (
         <>
             <Helmet>
-
+                <title>Little Lambs Nursery | Contact Us </title>
+                <meta name="description" content="Contact Little Lambs Nursery LLC, for any query or information regarding the foundation stage programs, curriculum, facilities, admissions etc. Contact us." />
+                <link rel="canonical" href="https://www.nurserylittlelambs.com/contact-us" />
             </Helmet>
             <WhatsAppChat />
             <Navigation />

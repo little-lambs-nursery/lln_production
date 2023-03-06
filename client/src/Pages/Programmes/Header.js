@@ -18,7 +18,7 @@ const Header = () => {
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="title aboutTitle">
-                                    <h2>PROGRAMMES</h2>
+                                    <h1>PROGRAMMES</h1>
                                 </div>
                             </div>
                         </div>
@@ -33,7 +33,7 @@ const Header = () => {
                             </div>
                             <div className='col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12'>
                                 <div className='programHeaderImgCard'>
-                                    <img src={CAMP} alt="CAMP" className="img-fluid" />
+                                    <img src={CAMP} alt="Kid" className="img-fluid" />
                                     <div className='programHeaderCardName two'>
                                         <h4>Child Anxiety Multi-day program</h4>
                                     </div>
@@ -41,7 +41,7 @@ const Header = () => {
                             </div>
                             <div className='col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12'>
                                 <div className='programHeaderImgCard'>
-                                    <img src={PEP} alt="PEP" className="img-fluid" />
+                                    <img src={PEP} alt="Picky Eating Programme" className="img-fluid" />
                                     <div className='programHeaderCardName three'>
                                         <h4>Picky Eating Program</h4>
                                     </div>
@@ -65,7 +65,7 @@ const Header = () => {
                             </div>
                             <div className='col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12'>
                                 <div className='programHeaderImgCard'>
-                                    <img src={AEP} alt="AEP" className="img-fluid" />
+                                    <img src={AEP} alt="Academic Enrichment Programme" className="img-fluid" />
                                     <div className='programHeaderCardName six'>
                                         <h4>Academic Enrichment Program</h4>
                                     </div>
@@ -73,7 +73,7 @@ const Header = () => {
                             </div>
                             <div className='col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12'>
                                 <div className='programHeaderImgCard'>
-                                    <img src={CLP} alt="CLP" className="img-fluid" />
+                                    <img src={CLP} alt="Communication & Language Programme" className="img-fluid" />
                                     <div className='programHeaderCardName seven'>
                                         <h4>Communication & Language Program</h4>
                                     </div>
@@ -81,7 +81,7 @@ const Header = () => {
                             </div>
                             <div className='col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12'>
                                 <div className='programHeaderImgCard'>
-                                    <img src={SSEP} alt="SSEP" className="img-fluid" />
+                                    <img src={SSEP} alt="Social Studies Education Programme" className="img-fluid" />
                                     <div className='programHeaderCardName eight'>
                                         <h4>Social Studies Education Program</h4>
                                     </div>

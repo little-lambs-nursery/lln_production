@@ -11,6 +11,9 @@ const Programmes = () => {
     return (
         <>
             <Helmet>
+                <title>Little Lambs Nursery | Programmes </title>
+                <meta name="description" content="At Little Lambs Nursery LLC, we provide multiple holistic development programmes for the proper development of children. So enroll your child at our nursery now!" />
+                <link rel="canonical" href="https://www.nurserylittlelambs.com/programmes" />
 
             </Helmet>
             <WhatsAppChat />
