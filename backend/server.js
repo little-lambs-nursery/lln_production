@@ -3,7 +3,7 @@ import mongoose from "mongoose"
 import cors from 'cors'
 import dotenv from 'dotenv'
 import path from 'path'
-import { adminSignIn, postEnquiry, getAllEnquiries, updateEnquiry, postContactUs, deleteEnquiry, getContactUs, deleteContactUs } from './admin.Controller.js'
+import { adminSignIn, postEnquiry, getAllEnquiries, updateEnquiry, postContactUs, deleteEnquiry, getContactUs, deleteContactUs, getData } from './admin.Controller.js'
 
 
 const app = express()
@@ -29,6 +29,7 @@ app.get('/api/enquiry', getAllEnquiries)
 app.post('/api/update-enquiry', updateEnquiry)
 
 app.post('/api/delete-enquiry', deleteEnquiry)
+app.get('/api/admin/get-data', getData)
 
 
 // if(process.env.NODE_ENV==='production'){

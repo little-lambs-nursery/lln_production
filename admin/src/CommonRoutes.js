@@ -10,13 +10,11 @@ import Sidebar from './Sidebar'
 const CommonRoutes = () => {
     return (
         <div>
-            <Navbar />
             <div class="container-fluid" id="main">
                 <div class="row row-offcanvas row-offcanvas-left">
-
-                    <Sidebar />
                     <Routes>
-                        <Route path='/admin' element={<Enquiry />} exact />
+                        {/* <Route path='/' element={<Dashboard />} exact /> */}
+                        <Route path='/admin' element={<Dashboard />} />
                         <Route path='/admin/login' element={<Login />} />
                         <Route path='/admin/enquiry' element={<Enquiry />} />
                         <Route path='/admin/contact' element={<Contact />} />

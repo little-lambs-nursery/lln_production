@@ -122,3 +122,13 @@ export const deleteEnquiry = async (req, res) => {
         return res.status(200).json({ errorcode: 5, status: false, msg: e.message, data: null });
     }
 }
+
+export const getData = async (req, res) => {
+    try {
+        const enquiryData = await Enquiry.countDocuments()
+        const contactData = await ContactUs.countDocuments()
+        return res.status(200).json({ errorcode: 0, status: true, msg: "feedback Data found", data: { enquiryData, contactData } });
+    } catch (e) {
+        return res.status(200).json({ errorcode: 5, status: false, msg: e.message, data: null });
+    }
+}
