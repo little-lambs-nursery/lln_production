@@ -123,7 +123,7 @@ const Footer = () => {
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="https://www.instagram.com/nurserylittlelambsdubai" target="_blank">
+                                            <a href="https://www.instagram.com/littlelambsnurserydubai/" target="_blank">
                                                 <img src={instagram} alt="instagram" className='img-fluid' />
                                             </a>
                                         </li>
