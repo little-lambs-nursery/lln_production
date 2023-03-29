@@ -7,6 +7,7 @@ import { BASEURL } from './Constants'
 import EnquiryModal from "./Enquiry.Modal"
 import DeleteModal from './Delete.Modal';
 import Button from 'react-bootstrap/Button';
+import moment from 'moment'
 import papaparse from "papaparse";
 import {
     AddBox,
@@ -127,6 +128,7 @@ const Enquiry = () => {
         { title: "Email", field: "email" },
         { title: "Program", field: "program" },
         { title: "Offer", field: "offer" },
+        { title: "Date", field: "date", render: (rowData) => moment(rowData.createdAt).format('lll') },
         { title: "Status", field: "status" },
         { title: "Message", field: "message" }
     ]

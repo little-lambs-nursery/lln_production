@@ -28,6 +28,7 @@ import {
 import { AdminState } from './Context';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import moment from 'moment';
 // import { BASEURL } from '../../constants'    
 // import { CartState } from '../../Context'
 // import Loader from '../../Components/Loader'
@@ -125,6 +126,7 @@ const Contact = () => {
         { title: "Email", field: "email" },
         { title: "Phone Number", field: "phoneNo" },
         { title: "Message", field: "comment" },
+        { title: "Date", field: "date", render: (rowData) => moment(rowData.createdAt).format('lll') },
     ]
 
     const handleExport = () => {
