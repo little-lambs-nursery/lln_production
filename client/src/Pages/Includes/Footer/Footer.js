@@ -150,7 +150,7 @@ const Footer = () => {
                                         </li>
                                     </ul>
                                     <br />
-                                    <small><b>Designed with ❤️ love by <a href="https://www.digitallygrowfast.com/" target='_blank'>Digrowfa Team</a></b></small>
+                                    <small><b>Designed with love by <a href="https://www.digitallygrowfast.com/" target='_blank'>Digrowfa Team</a></b></small>
                                 </div>
                             </div>
                         </div>
