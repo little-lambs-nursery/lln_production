@@ -12,6 +12,7 @@ import EnrollFormModal from '../EnrollForm/EnrollFormModal'
 
 const Footer = () => {
 
+
     const [modalShow, setModalShow] = useState(false);
 
     return (
