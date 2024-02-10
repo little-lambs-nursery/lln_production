@@ -112,7 +112,7 @@ const Footer = () => {
                         <div className='row'>
                             <div className='col-lg-12'>
                                 <div className='copyrightBox'>
-                                    <p>© 2022 Little Lambs Nursery All Rights Reserved. | <Link to="#">Sitemap</Link></p>
+                                    <p>© 2022 Little Lambs Nursery All Rights Reserved. | <a href="/sitemap.xml" target='_blank'>Sitemap</a></p>
                                 </div>
                             </div>
                             <div className='col-lg-12'>
@@ -134,7 +134,7 @@ const Footer = () => {
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="https://www.youtube.com/@littlelambsnurseryuae" target="_blank">
+                                            <a href="https://www.youtube.com/channel/UCF32suJ-KMfZF3FSTqJeXMQ" target="_blank">
                                                 <img src={youtube} alt="youtube" className='img-fluid' />
                                             </a>
                                         </li>

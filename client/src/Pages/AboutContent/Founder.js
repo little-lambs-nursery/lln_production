@@ -7,7 +7,8 @@ const Founder = () => {
                         <div className="row d-flex justify-content-center">
                             <div className="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
                                 <div className="founderContent">
-                                    <h2>We, Dr. Yogita (CEO & FOUNDER), Nishtha Rijhwani(FOUNDER) and Mr. Hitesh Rijhwani  of Little Lambs Nursery<br />
+
+                                    <h2>We Make it I, Dr. Yogita (CEO & FOUNDER) of Little Lambs Nursery<br />
                                         take a pledge….</h2>
                                     <p>At any time, children will always come first. With LLN, every day will be a new learning experience/opportunity for your child. Little Lambs Nursery pledges to provide a safe and secure home away from home. We would love to invite you to our Mankhool branch to find out more about the way we work and experience how we have embarked on a positive learning journey with our little ones and the support of our fabulous staff/parents.</p>
                                 </div>
