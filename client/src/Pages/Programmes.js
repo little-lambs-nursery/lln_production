@@ -12,7 +12,7 @@ const Programmes = () => {
         <>
             <Helmet>
                 <title>Our Programmes | Little Lambs</title>
-                <meta name="description" content="Little Lambs Nursery LLC is a British Curriculum Nursery for childern in Mankhool, Dubai with multiple innovative programs. Contact now to learn more about us." />
+                <meta name="description" content="At Little Lambs Nursery LLC, we provide multiple holistic development programmes for the proper development of children So enroll your child at our nursery now!" />
                 <link rel="canonical" href="https://www.nurserylittlelambs.com/programmes" />
 
             </Helmet>
