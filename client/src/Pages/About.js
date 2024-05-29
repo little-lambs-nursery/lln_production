@@ -13,8 +13,8 @@ const About = (props) => {
     return (
         <>
             <Helmet>
-                <title>British Curriculum Nursery | Little Lambs </title>
-                <meta name="description" content="Little Lambs Nursery LLC is a British Curriculum Nursery for childern in Mankhool, Dubai with multiple innovative programs. Contact now to learn more about us." />
+                <title>Best Nursery in Al Mankhool Dubai | Little Lambs Nursery</title>
+                <meta name="description" content="Little Lambs Nursery LLC is a well recommended preschool daycare center in Mankhool, Dubai for early childhood learning and a secure environment." />
                 <link rel="canonical" href="https://www.nurserylittlelambs.com/about-us" />
             </Helmet>
             <WhatsAppChat />
