@@ -14,8 +14,8 @@ const Home = (props) => {
         <>
             <Helmet>
                 
-                <title>Little Lambs Nursery | Best Nursery in Al Mankhool,Dubai</title>
-                <meta name="description" content="Little Lambs Nursery LLC is a well-recommended preschool & daycare center for early childhood learning and a secure environment in Mankhool, Dubai." />
+                <title>Best Nursery in Al Mankhool Dubai | Little Lambs Nursery</title>
+                <meta name="description" content="Little Lambs Nursery LLC is a well recommended preschool daycare center in Mankhool, Dubai for early childhood learning and a secure environment." />
                 <link rel="publisher" href="https://www.facebook.com/nurserylittlelambs" />
                 <link rel="canonical" href="https://www.nurserylittlelambs.com/" />
 
