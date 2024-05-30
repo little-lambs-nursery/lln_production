@@ -83,6 +83,9 @@ const Navigation = () => {
                                             <Link to="/facilities">Facilities</Link>
                                         </li>
                                         <li>
+                                            <Link to="/contact-us">BRANCHES</Link>
+                                        </li>
+                                        <li>
                                             <Link to="/contact-us">CONTACT</Link>
                                         </li>
                                         <li>
