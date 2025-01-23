@@ -83,7 +83,7 @@ const Navigation = () => {
                                             <Link to="/facilities">Facilities</Link>
                                         </li>
                                         <li>
-                                            <Link to="/contact-us">BRANCHES</Link>
+                                            <Link to="/branches">BRANCHES</Link>
                                         </li>
                                         <li>
                                             <Link to="/contact-us">CONTACT</Link>

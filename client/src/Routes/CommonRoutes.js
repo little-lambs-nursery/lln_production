@@ -1,6 +1,7 @@
 import { Routes, Route } from "react-router-dom"
 import About from "../Pages/About"
 import Contact from "../Pages/Contact"
+import Branches from "../Pages/Branches"
 import Curriculum from "../Pages/Curriculum"
 import Difference from "../Pages/Difference"
 import Facilities from "../Pages/Facilities"
@@ -25,6 +26,7 @@ const CommonRoutes = () => {
                     <Route path="/curriculum" element={<Curriculum />} />
                     <Route path="/gallery" element={<Gallery />} />
                     <Route path="/contact-us" element={<Contact />} />
+                    <Route path="/branches" element={<Branches />} />
                     <Route path="/LLN-the-difference" element={<Difference />} />
                     <Route path="/offers" element={<Offers />} />
                     <Route path="/health-and-safety" element={<HealthSafety />} />
